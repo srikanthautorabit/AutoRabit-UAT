@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>new PS group</label>
+    <mutingPermissionSets>new_PS_group_Muted</mutingPermissionSets>
+    <permissionSets>test_permission</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

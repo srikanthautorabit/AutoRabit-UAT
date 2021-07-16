@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Abridged Problem Statement --></label>
+    <name>Abridged_Problem_Statement__c</name>
+    <picklistValues>
+        <masterLabel>Achieve &quot;Daily Deployments&quot; with your VCS and ALM systems</masterLabel>
+        <translation><!-- Achieve &quot;Daily Deployments&quot; with your VCS and ALM systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Achieve CI/CD using GUI for Salesforce DX - Create contextual scratch orgs and be able to version Unlocked Packages</masterLabel>
+        <translation><!-- Achieve CI/CD using GUI for Salesforce DX - Create contextual scratch orgs and be able to version Unlocked Packages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cherry-pick and deploy only delta differences within specific user stories. Dependent user stories can be pushed as well</masterLabel>
+        <translation><!-- Cherry-pick and deploy only delta differences within specific user stories. Dependent user stories can be pushed as well --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create, version and deploy nCino feature templates with dependencies. Also, version and migrate your Vlocity datapacks with dependencies</masterLabel>
+        <translation><!-- Create, version and deploy nCino feature templates with dependencies. Also, version and migrate your Vlocity datapacks with dependencies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frequent check-in to the repository to sync your Salesforce box with SCM branch on metadata changes, including deletions</masterLabel>
+        <translation><!-- Frequent check-in to the repository to sync your Salesforce box with SCM branch on metadata changes, including deletions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Managed Package: Metadata can be versioned in Source Control and data with dependencies can be migrated to Salesforce.</masterLabel>
+        <translation><!-- Managed Package: Metadata can be versioned in Source Control and data with dependencies can be migrated to Salesforce. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Migrate data records (w/ dependency across objects) from one Salesforce environment to another.</masterLabel>
+        <translation><!-- Migrate data records (w/ dependency across objects) from one Salesforce environment to another. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prevent Admins/Developers from overwriting their fellow user&apos;s metadata changes</masterLabel>
+        <translation><!-- Prevent Admins/Developers from overwriting their fellow user&apos;s metadata changes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule deployments, code coverage and pre/post deployment steps</masterLabel>
+        <translation><!-- Schedule deployments, code coverage and pre/post deployment steps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule pre/post deployment activities by running it with automated deployments</masterLabel>
+        <translation><!-- Schedule pre/post deployment activities by running it with automated deployments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Understand who is deploying what changes to an environment. Commits and merges can also be tracked on a periodic basis.</masterLabel>
+        <translation><!-- Understand who is deploying what changes to an environment. Commits and merges can also be tracked on a periodic basis. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

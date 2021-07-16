@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Cases_in_AutoRABIT__c</fullName>
+    <externalId>false</externalId>
+    <label>Use Cases in AutoRABIT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Abridged_Problem_Statement__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Code quality check</fullName>
+                <default>false</default>
+                <label>Code quality check</label>
+            </value>
+            <value>
+                <fullName>Constructive and Destructive changes can be packaged into one commit</fullName>
+                <default>false</default>
+                <label>Constructive and Destructive changes can be packaged into one commit</label>
+            </value>
+            <value>
+                <fullName>Recurrent metadata check-ins</fullName>
+                <default>false</default>
+                <label>Recurrent metadata check-ins</label>
+            </value>
+            <value>
+                <fullName>Salesforce users can collaborate on their metadata changes&quot;</fullName>
+                <default>false</default>
+                <label>Salesforce users can collaborate on their metadata changes&quot;</label>
+            </value>
+            <value>
+                <fullName>Supports all conflict resolution types - Ours, Theirs, Recursive and Fast Forward</fullName>
+                <default>false</default>
+                <label>Supports all conflict resolution types - Ours, Theirs, Recursive and Fast Forward</label>
+            </value>
+            <value>
+                <fullName>Validate/Test a user story prior to a push</fullName>
+                <default>false</default>
+                <label>Validate/Test a user story prior to a push</label>
+            </value>
+            <value>
+                <fullName>Deploy specific work items (with dependencies) to higher environments that have passed testing</fullName>
+                <default>false</default>
+                <label>Deploy specific work items (with dependencies) to higher environments that have passed testing</label>
+            </value>
+            <value>
+                <fullName>Leverage an existing build to re-deploy into other environments</fullName>
+                <default>false</default>
+                <label>Leverage an existing build to re-deploy into other environments</label>
+            </value>
+            <value>
+                <fullName>Rollback the package either completely or selectively upon successful deployment</fullName>
+                <default>false</default>
+                <label>Rollback the package either completely or selectively upon successful deployment</label>
+            </value>
+            <value>
+                <fullName>Delta Deployments for nested metadata components</fullName>
+                <default>false</default>
+                <label>Delta Deployments for nested metadata components</label>
+            </value>
+            <value>
+                <fullName>Schedule deployments (daily, weekly, webhook-based) with pre/post deployment tasks</fullName>
+                <default>false</default>
+                <label>Schedule deployments (daily, weekly, webhook-based) with pre/post deployment tasks</label>
+            </value>
+            <value>
+                <fullName>Automate Unit Tests by running code coverage only on dependent Test Classes</fullName>
+                <default>false</default>
+                <label>Automate Unit Tests by running code coverage only on dependent Test Classes</label>
+            </value>
+            <value>
+                <fullName>Tag work items during deployments</fullName>
+                <default>false</default>
+                <label>Tag work items during deployments</label>
+            </value>
+            <value>
+                <fullName>Run Pre/Post Destructive Changes during Rollback to avoid dependency errors</fullName>
+                <default>false</default>
+                <label>Run Pre/Post Destructive Changes during Rollback to avoid dependency errors</label>
+            </value>
+            <value>
+                <fullName>Dependent records across multiple objects can be migrated with no limit on #records</fullName>
+                <default>false</default>
+                <label>Dependent records across multiple objects can be migrated with no limit on #records</label>
+            </value>
+            <value>
+                <fullName>Sensitive records masked during migration</fullName>
+                <default>false</default>
+                <label>Sensitive records masked during migration</label>
+            </value>
+            <value>
+                <fullName>Supports Lookup, Master-Detail, Junction objects, Self References</fullName>
+                <default>false</default>
+                <label>Supports Lookup, Master-Detail, Junction objects, Self References</label>
+            </value>
+            <value>
+                <fullName>Schedule Data Loads or Integrate with metadata deployment</fullName>
+                <default>false</default>
+                <label>Schedule Data Loads or Integrate with metadata deployment</label>
+            </value>
+            <value>
+                <fullName>Assists with preparation of logical metadata packages with depedencies</fullName>
+                <default>false</default>
+                <label>Assists with preparation of logical metadata packages with depedencies</label>
+            </value>
+            <value>
+                <fullName>Supports creation of contextual Scratch orgs and Second Generation packaging (Unlocked Packages)</fullName>
+                <default>false</default>
+                <label>Supports creation of contextual Scratch orgs and Second Generation packaging (Unlocked Packages)</label>
+            </value>
+            <value>
+                <fullName>Completely driven by GUI</fullName>
+                <default>false</default>
+                <label>Completely driven by GUI</label>
+            </value>
+            <value>
+                <fullName>Creation of templates to support pre/post deployment activities</fullName>
+                <default>false</default>
+                <label>Creation of templates to support pre/post deployment activities</label>
+            </value>
+            <value>
+                <fullName>Templates can be run separately or tagged with CI Jobs</fullName>
+                <default>false</default>
+                <label>Templates can be run separately or tagged with CI Jobs</label>
+            </value>
+            <value>
+                <fullName>Out-of-Box Integrations with commonly used tools like JIRA, GIT, etc.</fullName>
+                <default>false</default>
+                <label>Out-of-Box Integrations with commonly used tools like JIRA, GIT, etc.</label>
+            </value>
+            <value>
+                <fullName>Help users achieve CD faster than any other release management platform</fullName>
+                <default>false</default>
+                <label>Help users achieve CD faster than any other release management platform</label>
+            </value>
+            <value>
+                <fullName>Create feature templates for nCino with dependencies across sObjects</fullName>
+                <default>false</default>
+                <label>Create feature templates for nCino with dependencies across sObjects</label>
+            </value>
+            <value>
+                <fullName>Record the Metadata Configuration and nCino records in a branch</fullName>
+                <default>false</default>
+                <label>Record the Metadata Configuration and nCino records in a branch</label>
+            </value>
+            <value>
+                <fullName>Deploy nCino templates (w/ dependencies) from either Salesforce Org or Version Control</fullName>
+                <default>false</default>
+                <label>Deploy nCino templates (w/ dependencies) from either Salesforce Org or Version Control</label>
+            </value>
+            <value>
+                <fullName>Version and deploy Vlocity datapacks with dependencies to reduce deployment times</fullName>
+                <default>false</default>
+                <label>Version and deploy Vlocity datapacks with dependencies to reduce deployment times</label>
+            </value>
+            <value>
+                <fullName>Visualize every day CI/CD operations and be able to generate reports on a daily/weekly/monthly basis</fullName>
+                <default>false</default>
+                <label>Visualize every day CI/CD operations and be able to generate reports on a daily/weekly/monthly basis</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Understand who is deploying what changes to an environment. Commits and merges can also be tracked on a periodic basis.</controllingFieldValue>
+            <valueName>Visualize every day CI/CD operations and be able to generate reports on a daily/weekly/monthly basis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Frequent check-in to the repository to sync your Salesforce box with SCM branch on metadata changes, including deletions</controllingFieldValue>
+            <valueName>Code quality check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Frequent check-in to the repository to sync your Salesforce box with SCM branch on metadata changes, including deletions</controllingFieldValue>
+            <controllingFieldValue>Managed Package: Metadata can be versioned in Source Control and data with dependencies can be migrated to Salesforce.</controllingFieldValue>
+            <valueName>Constructive and Destructive changes can be packaged into one commit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Frequent check-in to the repository to sync your Salesforce box with SCM branch on metadata changes, including deletions</controllingFieldValue>
+            <valueName>Recurrent metadata check-ins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Frequent check-in to the repository to sync your Salesforce box with SCM branch on metadata changes, including deletions</controllingFieldValue>
+            <controllingFieldValue>Managed Package: Metadata can be versioned in Source Control and data with dependencies can be migrated to Salesforce.</controllingFieldValue>
+            <valueName>Validate/Test a user story prior to a push</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prevent Admins/Developers from overwriting their fellow user&apos;s metadata changes</controllingFieldValue>
+            <valueName>Salesforce users can collaborate on their metadata changes&quot;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prevent Admins/Developers from overwriting their fellow user&apos;s metadata changes</controllingFieldValue>
+            <valueName>Supports all conflict resolution types - Ours, Theirs, Recursive and Fast Forward</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cherry-pick and deploy only delta differences within specific user stories. Dependent user stories can be pushed as well</controllingFieldValue>
+            <valueName>Deploy specific work items (with dependencies) to higher environments that have passed testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cherry-pick and deploy only delta differences within specific user stories. Dependent user stories can be pushed as well</controllingFieldValue>
+            <valueName>Leverage an existing build to re-deploy into other environments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cherry-pick and deploy only delta differences within specific user stories. Dependent user stories can be pushed as well</controllingFieldValue>
+            <valueName>Rollback the package either completely or selectively upon successful deployment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cherry-pick and deploy only delta differences within specific user stories. Dependent user stories can be pushed as well</controllingFieldValue>
+            <valueName>Delta Deployments for nested metadata components</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule deployments, code coverage and pre/post deployment steps</controllingFieldValue>
+            <valueName>Schedule deployments (daily, weekly, webhook-based) with pre/post deployment tasks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule deployments, code coverage and pre/post deployment steps</controllingFieldValue>
+            <valueName>Automate Unit Tests by running code coverage only on dependent Test Classes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule deployments, code coverage and pre/post deployment steps</controllingFieldValue>
+            <valueName>Tag work items during deployments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule deployments, code coverage and pre/post deployment steps</controllingFieldValue>
+            <valueName>Run Pre/Post Destructive Changes during Rollback to avoid dependency errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migrate data records (w/ dependency across objects) from one Salesforce environment to another.</controllingFieldValue>
+            <controllingFieldValue>Managed Package: Metadata can be versioned in Source Control and data with dependencies can be migrated to Salesforce.</controllingFieldValue>
+            <valueName>Dependent records across multiple objects can be migrated with no limit on #records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migrate data records (w/ dependency across objects) from one Salesforce environment to another.</controllingFieldValue>
+            <valueName>Sensitive records masked during migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migrate data records (w/ dependency across objects) from one Salesforce environment to another.</controllingFieldValue>
+            <valueName>Supports Lookup, Master-Detail, Junction objects, Self References</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migrate data records (w/ dependency across objects) from one Salesforce environment to another.</controllingFieldValue>
+            <controllingFieldValue>Managed Package: Metadata can be versioned in Source Control and data with dependencies can be migrated to Salesforce.</controllingFieldValue>
+            <valueName>Schedule Data Loads or Integrate with metadata deployment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Achieve CI/CD using GUI for Salesforce DX - Create contextual scratch orgs and be able to version Unlocked Packages</controllingFieldValue>
+            <valueName>Assists with preparation of logical metadata packages with depedencies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Achieve CI/CD using GUI for Salesforce DX - Create contextual scratch orgs and be able to version Unlocked Packages</controllingFieldValue>
+            <valueName>Supports creation of contextual Scratch orgs and Second Generation packaging (Unlocked Packages)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Achieve CI/CD using GUI for Salesforce DX - Create contextual scratch orgs and be able to version Unlocked Packages</controllingFieldValue>
+            <valueName>Completely driven by GUI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule pre/post deployment activities by running it with automated deployments</controllingFieldValue>
+            <valueName>Creation of templates to support pre/post deployment activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule pre/post deployment activities by running it with automated deployments</controllingFieldValue>
+            <valueName>Templates can be run separately or tagged with CI Jobs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Achieve &quot;Daily Deployments&quot; with your VCS and ALM systems</controllingFieldValue>
+            <valueName>Out-of-Box Integrations with commonly used tools like JIRA, GIT, etc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Achieve &quot;Daily Deployments&quot; with your VCS and ALM systems</controllingFieldValue>
+            <valueName>Help users achieve CD faster than any other release management platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Create, version and deploy nCino feature templates with dependencies. Also, version and migrate your Vlocity datapacks with dependencies</controllingFieldValue>
+            <valueName>Create feature templates for nCino with dependencies across sObjects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Create, version and deploy nCino feature templates with dependencies. Also, version and migrate your Vlocity datapacks with dependencies</controllingFieldValue>
+            <valueName>Record the Metadata Configuration and nCino records in a branch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Create, version and deploy nCino feature templates with dependencies. Also, version and migrate your Vlocity datapacks with dependencies</controllingFieldValue>
+            <valueName>Deploy nCino templates (w/ dependencies) from either Salesforce Org or Version Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Create, version and deploy nCino feature templates with dependencies. Also, version and migrate your Vlocity datapacks with dependencies</controllingFieldValue>
+            <valueName>Version and deploy Vlocity datapacks with dependencies to reduce deployment times</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

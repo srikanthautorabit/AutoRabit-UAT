@@ -1,0 +1,86 @@
+<aura:component controller="PocController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:attribute name="ProblemID" type="String"  />
+   
+     <aura:attribute name="NewPOC" type="Customer_POC_Request__c"
+         default="{ 'sobjectType': 'Customer_POC_Request__c',
+                        'Customer_Name__c': '',
+                        'Phone__c': '',
+                        'Email__c': '',
+                        }"/>
+     <aura:attribute name="NewPS" type="AutoRABIT_POC__c"
+         default="{ 'sobjectType': 'AutoRABIT_POC__c',
+                        'Abridged_Problem_Statement__c': '',
+                        'Use_Cases_in_AutoRABIT__c': '' }"/>
+    <lightning:layout multipleRows="true">
+       <lightning:layoutItem size="12">
+           <div class="slds-col slds-size_1-of-1" >
+    			<span>
+                <div class="slds-box slds-var-m-around_xxx-small" >
+              <p><img src="{!$Resource.AutoRABITPOC}" width="200" height="10"/></p>
+                   
+                </div>
+        		</span>
+  			</div> 
+         </lightning:layoutItem>
+        <lightning:layoutItem size="12">
+            <div class="slds-grid slds-gutters">
+           <div class="slds-col slds-size_1-of-4">
+        	<span>
+            			<div class="slds-text-heading_large slds-text-align_Right slds-text-color_destructive">
+                            Customer Details:</div>
+            			<lightning:input aura:id="CustomerForm" label="Customer Name"
+                             name="CustomerName"
+                             value="{!v.NewPOC.Customer_Name__c}"/>
+                    <lightning:input aura:id="CustomerForm" label="Email"
+                             name="Email"
+                             value="{!v.NewPOC.Email__C}"/>
+                    <lightning:input aura:id="CustomerForm" label="Phone"
+                             name="Phone"
+                             value="{!v.NewPOC.Phone__c}"/>
+                    </span>
+                </div>
+        	<div class="slds-col slds-size_3-of-4">
+			 <lightning:recordEditForm  recordId="{!v.ProblemID}" 
+                              objectApiName="AutoRABIT_POC__c" >
+           <span>
+               <div class="slds-text-heading_large slds-text-align_Right slds-text-color_destructive">
+                            Problem Statements:</div>
+                <div class="slds-text-heading_small slds-text-align_Right slds-text-color_destructive">
+                            Problem Statement1:</div>
+               <div style="height: 220px"  >
+                   	
+               		<lightning:inputField  fieldName="Abridged_Problem_Statement__c" />
+               		<lightning:inputField  fieldName="Use_Cases_in_AutoRABIT__c" />
+               		
+    			</div>
+                 </span><br/>
+                 <div>
+                 <!--     <lightning:recordEditForm  recordId="{!v.ProblemID}" 
+                              objectApiName="AutoRABIT_POC__c" >
+                 <span>
+              <div class="slds-text-heading_small slds-text-align_Right slds-text-color_destructive">
+                            Problem Statement2:</div>
+               <div style="height: 220px"  >
+               		<lightning:inputField  fieldName="Abridged_Problem_Statement__c" />
+               		<lightning:inputField  fieldName="Use_Cases_in_AutoRABIT__c" />
+               		
+    			</div>
+            </span>
+                          </lightning:recordEditForm >-->
+                 </div>
+               </lightning:recordEditForm >
+            
+                </div>
+               
+            </div>
+            <div class="slds-float_right">
+            <lightning:button label="Submit"
+                              class="slds-m-top_medium"
+                              variant="brand"
+                              onclick="{!c.CreatePOC}"/>
+                </div>
+        </lightning:layoutItem>
+         
+    </lightning:layout> 
+    
+</aura:component>

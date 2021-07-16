@@ -1,0 +1,73 @@
+{
+  "appPageId" : "0ccf73bf-a6b6-4f58-bb92-585901150fb3",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "ec6925d9-3d40-452f-9fc1-9c832654814a",
+  "label" : "Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"0b345772-340c-44d0-a99c-2680efcb541b\",\"columns\":[{\"UUID\":\"4a59c64a-86fb-4530-8b3f-7872c870fd60\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "0b345772-340c-44d0-a99c-2680efcb541b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "community_login:communityLogo",
+          "id" : "e855cd49-45b6-4379-87b3-0a093c37a55a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "cancelLinkLabel" : "Already have an account?",
+            "confirmPasswordLabel" : "Confirm Password",
+            "emailLabel" : "Email",
+            "firstnameLabel" : "First Name",
+            "includePasswordField" : true,
+            "lastnameLabel" : "Last Name",
+            "passwordLabel" : "Create Password",
+            "regConfirmUrl" : "./CheckPasswordResetEmail",
+            "submitButtonLabel" : "Sign Up"
+          },
+          "componentName" : "community_login:selfRegister",
+          "id" : "ee7593b4-16f8-49b3-9086-0ea7d7c6a7d2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4a59c64a-86fb-4530-8b3f-7872c870fd60",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4d90ec44-d3d6-47c5-9635-7bab5b2d63b1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Register",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "c165517d-55cc-4bd7-9dcd-e99eceb223bc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "71e1d8ea-1afa-4ea7-9a2c-ab06f41f2c50",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "self-register"
+}

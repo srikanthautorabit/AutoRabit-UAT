@@ -1,0 +1,92 @@
+<aura:component controller="Leads_view" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"  access="global">
+    <aura:attribute name="columns" type="object" />
+    <aura:attribute name="leadslist" type="list" />
+    <aura:attribute name="selectedleads" type="List"/>
+    <aura:attribute name="selectedleadstest" type="List"/>
+    
+ <!-- <aura:attribute name="selleadID" type="String" default = '00Q6F00001CJbfqUAD'/>
+    <aura:attribute name="selCustomerID" type="String" default = '0016F00003537ABQAY' /> -->
+    <aura:attribute name="selleadID" type="String" />
+    <aura:attribute name="selCustomerID" type="String"  />
+	<aura:attribute name="Leaddeatilstab" type="boolean" default = 'false' />       
+    <aura:handler  name="init" value="{!this}" action="{!c.invoke}"/>
+    
+
+ 
+  <div class="slds-col slds-grid ">
+      
+      
+       <div class="slds-col slds-size_small slds-border_right slds-p-left_small ">
+           <div style="font-size:20px; color:blue">
+               <h1><u>Customer Details</u></h1>
+          </div>
+          
+              <aura:If isTrue="{! not( empty( v.selCustomerID ) ) }">
+           <lightning:recordViewForm recordId="{!v.selCustomerID}" 
+                              objectApiName="Lead" >
+           <span>
+               <div style="height: 220px"  >
+               		<lightning:outputField fieldName="Name" />
+               		<lightning:outputField fieldName="Mobile__c" />
+               		<lightning:outputField fieldName="Email__c" />
+                   <lightning:outputField fieldName="Preferred_Contact_Method__c" />
+                   
+        			
+    			</div>
+            </span>
+               </lightning:recordViewForm>
+               </aura:If>
+  		</div>
+   <div class="slds-col max-large- slds-p-left_x-small">
+       <div>
+    	<div style="font-size:20px; color:blue">
+            <h1><u>Leads</u></h1>
+          </div>
+      		<span><div style="height: 220px" class="slds-border_bottom " >
+        			
+        			<lightning:datatable
+                		keyField="id"
+                		data="{! v.leadslist }"
+                		columns="{! v.columns }"
+                		hideCheckboxColumn="false" onrowselection="{! c.handleRowAction }" maxRowSelection = "1"/>
+    				</div>
+            </span>
+       </div><br/>
+       <div >
+          <div style="font-size:20px; color:blue">
+              <h1><u>Lead Details </u></h1>
+          </div>
+          
+           <aura:If isTrue="{! not( empty( v.selleadID ) ) }">
+            <lightning:recordViewForm recordId="{!v.selleadID}" 
+                              objectApiName="Lead">
+                
+           <span>
+               
+               <div class="slds-col slds-size_1-of-2" >
+                 
+               		<lightning:outputField fieldName="Name" />
+               		<lightning:outputField fieldName="Type__c" />
+               		<lightning:outputField fieldName="Model__c" />
+                   <lightning:outputField fieldName="Source__c" />
+               		<lightning:outputField fieldName="Outcome__c" />
+                  
+                      <lightning:outputField fieldName="Assigned_To_Dealership__c" />
+                   <lightning:outputField fieldName="Consultant__c" />
+                   <lightning:outputField fieldName="Status__c" />
+                     <lightning:outputField fieldName="Cars__c" />
+                       </div>
+             
+            </span>
+                
+               
+                    
+               </lightning:recordViewForm> 
+       </aura:If>
+               
+       </div>
+    </div>
+  </div>
+    
+
+  </aura:component>

@@ -1,0 +1,41 @@
+{
+  "appPageId" : "0ccf73bf-a6b6-4f58-bb92-585901150fb3",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "1bc2c817-fbcb-4f4b-8bfd-8d9282d33c84",
+  "label" : "Service Not Available",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"d6651515-2bcc-4a63-a21f-8118b2894de3\",\"columns\":[{\"UUID\":\"fc27fcdb-7b70-45c0-9bad-a50097c4d2d4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "d6651515-2bcc-4a63-a21f-8118b2894de3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"display: flex; align-items: center; flex-direction: column; margin: 60px 25px 40px 25px;\">\n\t<div style=\"background-image: url(assets/img/serviceNotAvailable.svg); center no-repeat; background-size: contain; height: 331px; width: 100%; max-width: 538px;\"></div>\n</div>\n<div style=\"margin: 0 25px; text-align: center;\">\n\t<p><b style=\"font-size: 3.4em\">Looks like the site is temporarily unavailable</b></p>\n\t<br/>\n\t<p><span style=\"font-size: 2em;\">Please try again in a bit.</span></p>\n</div>"
+          },
+          "componentName" : "community_builder:htmlEditor",
+          "id" : "7a8e98d9-28cb-4dfd-8a3e-dbcabb02dcb3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fc27fcdb-7b70-45c0-9bad-a50097c4d2d4",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "01b8d0dd-b123-4aed-8152-225e1a1689da",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ServiceNotAvailable",
+  "type" : "view",
+  "viewType" : "service-not-available"
+}

@@ -1,0 +1,80 @@
+<aura:component controller="Leads_view" implements="flexipage:availableForRecordHome,force:hasRecordId,lightning:actionOverride" access="global">
+    <aura:attribute name="columns" type="object" />
+    <aura:attribute name="leadslist" type="list" />
+    <aura:attribute name="selleads" type="list" />
+    <aura:attribute name="selleadID" type="String" />
+    <aura:attribute name="selcontactID" type="String" />
+     <aura:attribute name="selaccid" type="String" />
+    
+    
+    <aura:handler  name="init" value="{!this}" action="{!c.invoke}"/>
+  <div class="slds-col slds-grid">
+      
+      
+      <div class="slds-col slds-size_small slds-border_right slds-p-left_small slds-theme_shade ">
+           <div style="font-size:20px; color:Blue">
+               <h1><u>Contact Details</u></h1>
+          </div>
+            <aura:If isTrue="{! not( empty( v.selaccid ) ) }"> 
+           <lightning:recordViewForm recordId="{!v.selaccid}" 
+                              objectApiName="Account">
+           <span>
+               <div style="height: 220px"  >
+               		<lightning:outputField fieldName="Customer_Id__c" />
+               		<lightning:outputField fieldName="Mobile__c" />
+               		<lightning:outputField fieldName="Email__c" />
+        			<lightning:outputField fieldName="Preferred_Contact_Method__c" />
+    			</div>
+            </span>
+               </lightning:recordViewForm>
+            </aura:If> 
+  		</div>
+     <div class="slds-col max-large- slds-p-left_x-small slds-theme_shade">
+       <div>
+    	<div style="font-size:20px; color:Blue">
+            <h1><u>Leads</u></h1>
+          </div>
+      		<span><div style="height: 220px"  >
+        			
+        			<lightning:datatable
+                		keyField="id"
+                		data="{! v.leadslist }"
+                		columns="{! v.columns }"
+                		onrowselection="{! c.selectedRows }"
+                                         maxRowSelection = "1" />
+    				</div>
+            </span>
+       </div><br/>
+       <div >
+          <div style="font-size:20px; color:Blue">
+              <h1><u>Lead Details </u></h1>
+          </div>
+           <aura:If isTrue="{! not( empty( v.selleadID ) ) }"> 
+            <lightning:recordViewForm recordId="{!v.selleadID}"
+                              objectApiName="Lead">
+           <span>
+               
+                <div class="article-container">
+                    <div class="article">
+               		<lightning:outputField fieldName="Name" />
+               		<lightning:outputField fieldName="Model__c" />
+               		<lightning:outputField fieldName="Type__c" />
+                    <lightning:outputField fieldName="Status__c" />
+        			<lightning:outputField fieldName="Outcome__c" />
+                    </div>
+                    <div class="article">
+                   <lightning:outputField fieldName="Source__c" />
+                   <lightning:outputField fieldName="Prospect__c" />
+                   <lightning:outputField fieldName="Assigned_To_Dealership__c" />
+                   <lightning:outputField fieldName="Consultant__c" />
+                    </div>
+    			</div>
+            </span>
+               </lightning:recordViewForm>
+            </aura:If> 
+       </div>
+    </div>
+  </div>
+    
+
+  </aura:component>

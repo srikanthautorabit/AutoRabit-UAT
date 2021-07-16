@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Customer_Email</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Customer Email</shortDescription>
+        <value>test</value>
+    </labels>
+    <labels>
+        <fullName>new_label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>new label</shortDescription>
+        <value>&apos;test123&apos;,&apos;test234&apos;,&apos;sri123&apos;sgdfg</value>
+    </labels>
+</CustomLabels>
