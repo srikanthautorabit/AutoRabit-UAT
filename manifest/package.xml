@@ -24,6 +24,7 @@
         <members>MY_Partner__c.Country__c</members>
         <members>MY_Partner__c.Description__c</members>
         <members>MY_Partner__c.ICCU_Demo__c</members>
+        <members>MY_Partner__c.NEW_UAT__c</members>
         <members>MY_Partner__c.New_Custom_Value__c</members>
         <members>MY_Partner__c.Pull_Request_test__c</members>
         <members>MY_Partner__c.Question__c</members>
