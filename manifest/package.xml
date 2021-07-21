@@ -133,6 +133,10 @@
         <name>Community</name>
     </types>
     <types>
+        <members>MY_Partner__c.my_partner_compact</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
@@ -1262,6 +1266,23 @@
         <members>Location.RemodelStartDate</members>
         <members>Location.RootLocationId</members>
         <members>Location.TimeZone</members>
+        <members>MY_Partner__c.Active__c</members>
+        <members>MY_Partner__c.Address__c</members>
+        <members>MY_Partner__c.Comments__c</members>
+        <members>MY_Partner__c.Country__c</members>
+        <members>MY_Partner__c.Description__c</members>
+        <members>MY_Partner__c.ICCU_Demo__c</members>
+        <members>MY_Partner__c.New_Custom_Value__c</members>
+        <members>MY_Partner__c.Pull_Request_test__c</members>
+        <members>MY_Partner__c.Question__c</members>
+        <members>MY_Partner__c.State__c</members>
+        <members>MY_Partner__c.TXFSC__c</members>
+        <members>MY_Partner__c.Type__c</members>
+        <members>MY_Partner__c.Website__c</members>
+        <members>MY_Partner__c.autobuild__c</members>
+        <members>MY_Partner__c.autoid__c</members>
+        <members>MY_Partner__c.cost__c</members>
+        <members>MY_Partner__c.phone__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.IsLightningSupported</members>
@@ -2117,6 +2138,7 @@
         <members>MLModel</members>
         <members>MLModelFactor</members>
         <members>MLModelFactorComponent</members>
+        <members>MY_Partner__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
@@ -2681,6 +2703,7 @@
         <members>LiveChatTranscript.FAQs_LiveChatTranscript</members>
         <members>LiveChatTranscript.NEWQUEUE_LiveChatTranscript</members>
         <members>LiveChatTranscript.myqueue_LiveChatTranscript</members>
+        <members>MY_Partner__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>OperatingHours.All_OperatingHours</members>
