@@ -3,6 +3,7 @@ public class AccountHandler {
 public static Account insertNewAccount()
 {
 //testing for mergepull
+     string s;
      Account act = New Account();
         act.Name = 'sri';
     try {
