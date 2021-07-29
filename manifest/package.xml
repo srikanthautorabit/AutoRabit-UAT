@@ -121,6 +121,11 @@
         <name>Bot</name>
     </types>
     <types>
+        <members>Case.AUTO CASES</members>
+        <members>Case.RABIT CASES</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
         <members>SelfSignedCert_24Oct2020_191535</members>
         <name>Certificate</name>
     </types>
