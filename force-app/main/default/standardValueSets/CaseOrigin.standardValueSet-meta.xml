@@ -14,6 +14,6 @@
     <standardValue>
         <fullName>Web</fullName>
         <default>false</default>
-        <label>Web</label>
+        <label>Website</label>
     </standardValue>
 </StandardValueSet>
