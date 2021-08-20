@@ -1,11 +1,19 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "51.0"
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : false
+  }, {
+    "path" : "AugustPackage",
+    "default" : true,
+    "package" : "AugustPackage",
+    "versionName" : "AugustPackage",
+    "versionNumber" : "1.0.0.0"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "51.0",
+  "packageAliases" : {
+    "AugustPackage" : "0Ho2x000000XZYBCA4",
+    "AugustPackage@1.0.0.0" : "04t2x000004BzLDAA0"
+  }
 }
