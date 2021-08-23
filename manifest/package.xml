@@ -4,6 +4,7 @@
         <members>IU_Health__c.Customer_Email__c</members>
         <members>IU_Health__c.Customer_Name__c</members>
         <members>IU_Health__c.Phone__c</members>
+        <members>IU_Health__c.TYPE__c</members>
         <name>CustomField</name>
     </types>
     <types>
