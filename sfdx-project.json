@@ -1,9 +1,9 @@
 {
   "packageDirectories" : [ {
-    "path" : "AugustPackage2021",
-    "default" : true,
-    "package" : "AugustPackage2021",
-    "versionName" : "AugustPackage2021",
+    "path" : "AugustPackage",
+    "default" : false,
+    "package" : "AugustPackage",
+    "versionName" : "AugustPackage",
     "versionNumber" : "1.0.0.0"
   }, {
     "path" : "AugustPackage2021",
@@ -12,14 +12,14 @@
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
+    "path" : "AugustPackage2021",
+    "default" : true,
+    "package" : "AugustPackage2021",
+    "versionName" : "AugustPackage2021",
+    "versionNumber" : "1.0.0.0"
+  }, {
     "path" : "force-app",
     "default" : false
-  }, {
-    "path" : "AugustPackage",
-    "default" : false,
-    "package" : "AugustPackage",
-    "versionName" : "AugustPackage",
-    "versionNumber" : "1.0.0.0"
   } ],
   "namespace" : "",
   "sfdcLoginUrl" : "https://login.salesforce.com",
@@ -31,6 +31,7 @@
     "AugustPackage2021@1.0.0.0" : "04t2x000004BzMQAA0",
     "AugustPackageV2-2021" : "0Ho2x000000XZYLCA4",
     "AugustPackageV2-2021@1.0.0.0" : "04t2x000004BzMfAAK",
-    "AugustPackage2021@1.0.2.0" : "04t2x000004BzN9AAK"
+    "AugustPackage2021@1.0.2.0" : "04t2x000004BzN9AAK",
+    "AugustPackage2021@1.0.3.0" : "04t2x000004BzNEAA0"
   }
 }
