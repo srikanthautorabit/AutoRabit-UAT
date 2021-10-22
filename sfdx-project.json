@@ -1,19 +1,20 @@
 {
   "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : false
+  }, {
     "path" : "UNLOCKED",
     "default" : true,
     "package" : "UNLOCKED",
     "versionName" : "UNLOCKED",
     "versionNumber" : "1.0.0.0"
-  }, {
-    "path" : "force-app",
-    "default" : false
   } ],
   "namespace" : "",
   "sfdcLoginUrl" : "https://login.salesforce.com",
   "sourceApiVersion" : "51.0",
   "packageAliases" : {
     "UNLOCKED" : "0Ho2x0000004Ce6CAE",
-    "UNLOCKED@1.0.0.0" : "04t2x000003vSFUAA2"
+    "UNLOCKED@1.0.0.0" : "04t2x000003vSFUAA2",
+    "UNLOCKED@1.0.0.2" : "04t2x000003vSIsAAM"
   }
 }
