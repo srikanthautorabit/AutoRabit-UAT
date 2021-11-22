@@ -1,10 +1,9 @@
 //testing
+//testing for mergepull
 public class AccountHandler {
 public static Account insertNewAccount()
 {
-//testing
 //testing for mergepull
-     //external
      string s;
           string sri;
      Account act = New Account();
