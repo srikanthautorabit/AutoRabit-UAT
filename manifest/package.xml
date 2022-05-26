@@ -2862,6 +2862,7 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Account.Partner</members>
         <members>Account.Partner_Account</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <name>RecordType</name>
