@@ -14,7 +14,7 @@
     </objectPermissions>
     <recordTypeVisibilities>
         <recordType>Account.Partner_Account</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <tabSettings>
         <tab>standard-QuickText</tab>
