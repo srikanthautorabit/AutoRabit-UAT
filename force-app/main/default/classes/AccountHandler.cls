@@ -17,6 +17,20 @@ public static Account insertNewAccount()
        return null;
                            }
     return act;
+}public static Account insertNewAccount()
+{
+//testing for mergepull
+     Account act = New Account1();
+        act.Name = 'sri';
+    try {
+  
+        insert act;
+        }
+    catch (DmlException e) {
+
+       return null;
+                           }
+    return act;
 }
 //testing Audibene
 
