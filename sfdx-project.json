@@ -1,11 +1,28 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "51.0"
+  "packageDirectories" : [ {
+    "path" : "UATModule-Parent",
+    "default" : true,
+    "package" : "UATModule-Parent",
+    "versionName" : "UATModule-Parent",
+    "versionNumber" : "1.0.0.0"
+  }, {
+    "path" : "force-app",
+    "default" : false
+  }, {
+    "path" : "UNLOCKED",
+    "default" : false,
+    "package" : "UNLOCKED",
+    "versionName" : "UNLOCKED",
+    "versionNumber" : "1.0.0.0"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "51.0",
+  "packageAliases" : {
+    "UNLOCKED" : "0Ho2x0000004Ce6CAE",
+    "UNLOCKED@1.0.0.0" : "04t2x000003vSFUAA2",
+    "UNLOCKED@1.0.0.2" : "04t2x000003vSIsAAM",
+    "UATModule-Parent" : "0Ho2x0000004CeGCAU",
+    "UATModule-Parent@1.0.0.0" : "04t2x000003vSKPAA2"
+  }
 }

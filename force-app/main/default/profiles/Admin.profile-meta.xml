@@ -274,9 +274,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Contact_Email__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -491,6 +491,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.number_of_contacts__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.testprofile__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
