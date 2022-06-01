@@ -38,4 +38,20 @@ Public class Casehelper{
     update caselist;
      system.debug('Exper2'+ caselist);*/
 }
+    public void onAfterUpdate1(list<case> Caslist){
+            Casehelper.runOnce = true;
+         system.debug('Caslist>>>'+ Caslist);    
+            
+    for(Case cas:Caslist){
+          if(Cas!=null){
+            CaseId.add(Cas.Id);
+        }
+        system.debug('CaseId'+ CaseId);
+    }
+            
+     if(CaseId != null){
+     
+         caselist = [SELECT Id,Description,experience__c,sales_areas_are_you_experienced_in__c,education_you_have_completed__c FROM Case WHERE Id =:CaseId]; 
+     }
+     system.debug('caselist'+ caselist);}
 }
