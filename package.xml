@@ -210,6 +210,7 @@
         <members>Account.Sic</members>
         <members>Account.SicDesc</members>
         <members>Account.Site</members>
+        <members>Account.TESTSRIKANTH__c</members>
         <members>Account.TickerSymbol</members>
         <members>Account.Tradestyle</members>
         <members>Account.Type</members>
