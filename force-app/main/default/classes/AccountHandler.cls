@@ -2,8 +2,7 @@
 public class AccountHandler {
 public static Account insertNewAccount()
 {
-//testing
-
+String tesing123;
      string s;
           string sri;
      Account act = New Account();
