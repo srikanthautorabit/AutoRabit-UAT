@@ -5,6 +5,6 @@
     <label>myqueue</label>
     <queue>myqueue</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

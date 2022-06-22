@@ -1,0 +1,51 @@
+{
+  "appPageId" : "1fd57616-ed55-4d30-8922-72782728c550",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "8782c604-9574-4b4d-9994-ee0620686225",
+  "label" : "Accountlist",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"4016088b-f028-48c6-95da-ef05218d2245\",\"columns\":[{\"UUID\":\"8a63bcf8-fff1-4ad5-ae25-c28eca38ac7e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "4016088b-f028-48c6-95da-ef05218d2245",
+      "regions" : [ {
+        "id" : "8a63bcf8-fff1-4ad5-ae25-c28eca38ac7e",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "5f28557a-58c5-4b91-bb39-9f70e5d39294",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Accountlist",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "6dd626b2-937f-48a5-9021-659041aab1c9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9eada299-4864-4d84-bab2-c90dcfd70000",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-accountlist"
+}

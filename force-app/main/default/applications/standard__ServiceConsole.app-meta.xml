@@ -181,7 +181,7 @@
     <tabs>standard-Lead</tabs>
     <tabs>Customer_POC_Request__c</tabs>
     <tabs>AutoRABIT_POC__c</tabs>
-    <tabs>MY_Partner__c</tabs>
+    <tabs>IU_Health__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>AutoRABIT_POC__c</tab>
@@ -190,7 +190,7 @@
             <tab>Customer_POC_Request__c</tab>
         </mappings>
         <mappings>
-            <tab>MY_Partner__c</tab>
+            <tab>IU_Health__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

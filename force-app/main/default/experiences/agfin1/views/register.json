@@ -44,6 +44,7 @@
       } ],
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
+      "scopedBrandingSetId" : null,
       "type" : "component"
     } ],
     "id" : "4d90ec44-d3d6-47c5-9635-7bab5b2d63b1",

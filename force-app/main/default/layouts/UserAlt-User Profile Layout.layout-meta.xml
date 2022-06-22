@@ -87,9 +87,6 @@
         <relatedList>UserFollowingList</relatedList>
     </relatedLists>
     <relatedLists>
-        <relatedList>RelatedFeedbackList</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>TERRITORY.NAME</fields>
         <fields>MODEL.NAME</fields>
         <fields>MODEL.STATE</fields>

@@ -35,6 +35,7 @@
           "type" : "region"
         } ],
         "renditionMap" : { },
+        "scopedBrandingSetId" : null,
         "type" : "component"
       } ],
       "id" : "1726baf3-4696-4d97-af32-73d1748c0863",
@@ -55,6 +56,7 @@
           "type" : "region"
         } ],
         "renditionMap" : { },
+        "scopedBrandingSetId" : null,
         "type" : "component"
       } ],
       "id" : "062bc784-335a-4da0-9abc-45625eee3010",

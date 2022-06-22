@@ -8,12 +8,5 @@
         <plural>true</plural>
         <value>Customer POC Request</value>
     </caseValues>
-    <layouts>
-        <layout>Customer POC Request Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

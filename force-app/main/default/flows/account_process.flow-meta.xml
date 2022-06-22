@@ -44,7 +44,7 @@
                 <leftValueReference>myVariable_current.Name</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue/>
+                    <stringValue></stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -145,7 +145,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue></stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>

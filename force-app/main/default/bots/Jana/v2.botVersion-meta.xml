@@ -15,8 +15,12 @@
                 <botNavigationLinks>
                     <targetBotDialog>Order_Status</targetBotDialog>
                 </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>End_Chat</targetBotDialog>
+                </botNavigationLinks>
                 <type>Redirect</type>
             </botNavigation>
+            <stepIdentifier>bfaafde6-75ff-4b37-94f2-e1f7133a6425</stepIdentifier>
             <type>Navigation</type>
         </botSteps>
         <developerName>Order_Related</developerName>
@@ -25,6 +29,7 @@
     </botDialogs>
     <botDialogs>
         <botSteps>
+            <stepIdentifier>9f8cd757-9a18-4250-9caa-2e17e277b00b</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Appointment_Related</developerName>
@@ -35,7 +40,9 @@
         <botSteps>
             <botMessages>
                 <message>Hi, I’m &apos;Jana&apos;, a digital assistant. How can I help you?</message>
+                <messageIdentifier>b1ba71a9-068d-407a-8b63-70c1a7f25177</messageIdentifier>
             </botMessages>
+            <stepIdentifier>8f2dd684-1439-4b1d-9b94-05a19401cbf8</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -45,6 +52,7 @@
                 </botNavigationLinks>
                 <type>Redirect</type>
             </botNavigation>
+            <stepIdentifier>9423cee0-cd50-43ef-b5ef-7d4debd07a5a</stepIdentifier>
             <type>Navigation</type>
         </botSteps>
         <developerName>Welcome</developerName>
@@ -73,6 +81,7 @@
                 </botNavigationLinks>
                 <type>Redirect</type>
             </botNavigation>
+            <stepIdentifier>3b751b33-fc1c-4f14-a00e-d55a4e7666ad</stepIdentifier>
             <type>Navigation</type>
         </botSteps>
         <developerName>Main_Menu</developerName>
@@ -84,6 +93,7 @@
             <conversationSystemMessage>
                 <type>Transfer</type>
             </conversationSystemMessage>
+            <stepIdentifier>a0c7bd5c-80d1-4c45-810d-01a14d0bef14</stepIdentifier>
             <type>SystemMessage</type>
         </botSteps>
         <developerName>Transfer_To_Agent</developerName>
@@ -94,10 +104,13 @@
         <botSteps>
             <botMessages>
                 <message>Goodbye! Click the &quot;End Chat&quot; button to end this chat</message>
+                <messageIdentifier>fef0cca6-e017-4a3c-9c30-d2a5cd68e506</messageIdentifier>
             </botMessages>
+            <stepIdentifier>da4067f5-0f19-44c4-8aab-4251dc14dffd</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
+            <stepIdentifier>bb9500f1-7295-4d9e-9d84-eecf34ab37e9</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>End_Chat</developerName>
@@ -108,10 +121,13 @@
         <botSteps>
             <botMessages>
                 <message>Sorry, I didn&apos;t understand that.</message>
+                <messageIdentifier>5b22efe5-f489-4a5d-8f9a-07681ed3f359</messageIdentifier>
             </botMessages>
+            <stepIdentifier>891f49d4-24e2-49ad-8fca-8329d65fd990</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
+            <stepIdentifier>5ace8f5f-b367-4507-a762-92eff34e52bb</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Confused</developerName>
@@ -122,10 +138,13 @@
         <botSteps>
             <botMessages>
                 <message>Unfortunately, there are no agents available at the moment</message>
+                <messageIdentifier>6993b533-63c4-483b-b406-e4d7b48d6bac</messageIdentifier>
             </botMessages>
+            <stepIdentifier>469fda01-c499-49b8-8618-db45edd108f1</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
+            <stepIdentifier>28712300-3a64-490a-9d63-819a9a9c1a4a</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>No_Agent_Available</developerName>
@@ -136,13 +155,16 @@
         <botSteps>
             <botMessages>
                 <message>Unfortunately, a system error occurred. I&apos;ll connect you to an agent who can help.</message>
+                <messageIdentifier>253b0e1d-4e6a-4fec-9ee8-148eacfdb54b</messageIdentifier>
             </botMessages>
+            <stepIdentifier>5fcd1ecb-9073-4325-bfb7-69dbfe904b90</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
             <conversationSystemMessage>
                 <type>Transfer</type>
             </conversationSystemMessage>
+            <stepIdentifier>cd3a1eba-769b-4567-93a5-d1ce46325bbe</stepIdentifier>
             <type>SystemMessage</type>
         </botSteps>
         <developerName>Error_Handling</developerName>
@@ -151,6 +173,7 @@
     </botDialogs>
     <botDialogs>
         <botSteps>
+            <stepIdentifier>7e74f252-5dfe-43d7-9a11-aa79aff31d7f</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Search_FAQ</developerName>
@@ -163,6 +186,7 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>&quot;What&apos;s the order number?</message>
+                    <messageIdentifier>48d97688-fb3d-4233-891b-ad2981375e26</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -174,16 +198,21 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyWidgetType>Buttons</quickReplyWidgetType>
                 <type>Collect</type>
+                <variableOperationIdentifier>4e073613-42f6-4d6e-8fc6-dbd76f753190</variableOperationIdentifier>
             </botVariableOperation>
+            <stepIdentifier>d1b76def-40fc-4dd3-90a3-3bf3579612e6</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
             <botMessages>
                 <message>Sure, let me look up this order {!OrderNumber} for you</message>
+                <messageIdentifier>fb2c71d5-ac1f-4ecd-b39e-6c14073d7291</messageIdentifier>
             </botMessages>
+            <stepIdentifier>ff0e1dda-6d3b-4a99-ae7a-fb8dd8cee1b6</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
+            <stepIdentifier>71de83a5-8fb7-425c-8557-023c78a70818</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Order_Status</developerName>
@@ -196,6 +225,7 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>Are you sure to cancel the order?</message>
+                    <messageIdentifier>c88c78c8-1c7c-4f6f-9096-6f9f4b436bc0</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -207,10 +237,13 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyWidgetType>Buttons</quickReplyWidgetType>
                 <type>Collect</type>
+                <variableOperationIdentifier>c86c5569-dad7-4cba-971a-406c0a493e7e</variableOperationIdentifier>
             </botVariableOperation>
+            <stepIdentifier>415a2f8d-8757-4782-bf18-5eb68eecf8bd</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
+            <stepIdentifier>a636b917-04f0-4ef1-b54a-db4bec07477f</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Cancel_an_Order</developerName>

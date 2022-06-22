@@ -10,7 +10,7 @@
         <criteriaItems>
             <field>Abridged_Problem_Statement__c</field>
             <operation>notEqual</operation>
-            <value/>
+            <value></value>
         </criteriaItems>
         <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
     </sharingGuestRules>

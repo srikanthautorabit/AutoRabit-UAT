@@ -8,12 +8,5 @@
         <plural>true</plural>
         <value>AutoRABIT POCs</value>
     </caseValues>
-    <layouts>
-        <layout>AutoRABIT POC Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

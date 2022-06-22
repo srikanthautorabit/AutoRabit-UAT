@@ -1,27 +1,11 @@
 //testing
-//testing for mergepull
 public class AccountHandler {
 public static Account insertNewAccount()
 {
-String tesing123;
-//testing for mergepull
+
      string s;
           string sri;
      Account act = New Account();
-        act.Name = 'sri';
-    try {
-  
-        insert act;
-        }
-    catch (DmlException e) {
-
-       return null;
-                           }
-    return act;
-}public static Account insertNewAccount()
-{
-//testing for mergepull
-     Account act = New Account1();
         act.Name = 'sri';
     try {
   
@@ -37,4 +21,5 @@ String tesing123;
 
 //testing
 //tesing123
+///newtesttt
 }

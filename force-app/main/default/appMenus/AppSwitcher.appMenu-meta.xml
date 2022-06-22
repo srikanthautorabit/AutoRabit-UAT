@@ -144,4 +144,24 @@
         <name>Ursa Major Solar</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>SDOC__S_Docs</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>SDocs_Connected_App</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AR53TEST</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>API53TESTING</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataManager</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
