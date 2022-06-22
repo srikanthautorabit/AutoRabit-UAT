@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TESTVALIDATION_SDOC</fullName>
+    <active>true</active>
+    <errorConditionFormula>SDOC__Task_Subject__c  = &apos;&apos;</errorConditionFormula>
+    <errorMessage>subject null</errorMessage>
+</ValidationRule>
