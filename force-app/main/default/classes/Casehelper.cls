@@ -1,10 +1,9 @@
 Public class Casehelper{
-//testing
-    //editing
+
     public static Boolean runOnce = true;
     list<case> caselist = new list<case>();
     set<id> CaseId=new set<id>();
-    
+    //testtstssad
     public void onAfterUpdate(list<case> Caslist){
             Casehelper.runOnce = true;
          system.debug('Caslist>>>'+ Caslist);    
