@@ -2,8 +2,7 @@
 public class AccountHandler {
 public static Account insertNewAccount()
 {
-//testing for mergepull
-//testing
+//new commect
      string s;
           string sri;
      Account act = New Account();
