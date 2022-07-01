@@ -2,22 +2,10 @@
 public class AccountHandler {
 public static Account insertNewAccount()
 {
-//testing for mergepull
+//new commect
+     string s;
+          string sri;
      Account act = New Account();
-        act.Name = 'sri';
-    try {
-  
-        insert act;
-        }
-    catch (DmlException e) {
-
-       return null;
-                           }
-    return act;
-}public static Account insertNewAccount()
-{
-//testing for mergepull
-     Account act = New Account1();
         act.Name = 'sri';
     try {
   
@@ -33,4 +21,5 @@ public static Account insertNewAccount()
 
 //testing
 //tesing123
+///newtesttt
 }
