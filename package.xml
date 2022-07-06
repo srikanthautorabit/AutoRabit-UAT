@@ -924,6 +924,7 @@
         <members>DelegatedAccount.Name</members>
         <members>DelegatedAccount.OwnerId</members>
         <members>DelegatedAccount.TargetId</members>
+        <members>DemoObject__c.TYPE__c</members>
         <members>DigitalWallet.AccountId</members>
         <members>DigitalWallet.AuditEmail</members>
         <members>DigitalWallet.Comments</members>
