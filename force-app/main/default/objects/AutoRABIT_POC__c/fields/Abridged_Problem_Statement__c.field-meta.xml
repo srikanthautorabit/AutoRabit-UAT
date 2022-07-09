@@ -66,6 +66,11 @@
                 <default>false</default>
                 <label>Understand who is deploying what changes to an environment. Commits and merges can also be tracked on a periodic basis.</label>
             </value>
+            <value>
+                <fullName>Testing POC-Q2</fullName>
+                <default>false</default>
+                <label>Testing POC-Q2</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

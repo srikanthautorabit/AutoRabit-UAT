@@ -1,0 +1,59 @@
+{
+  "appPageId" : "1fd57616-ed55-4d30-8922-72782728c550",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "81fbe0c4-5c0d-4934-a6fe-fea5c055e96f",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"2b78226f-71db-4c07-b448-ffe637252bc2\",\"columns\":[{\"UUID\":\"06b32d33-fd28-4bee-b8bd-34a327fe9612\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "2b78226f-71db-4c07-b448-ffe637252bc2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:aCCOUNTLIST",
+          "id" : "c8a3750d-5cc8-4307-ac3f-9f2a7ee01809",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "06b32d33-fd28-4bee-b8bd-34a327fe9612",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "ed5ba4a1-8285-4453-aed7-50b99ca4cf0b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "33baced7-b76f-4715-9cf2-ee5ba77c02ae",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a7e311e6-91a8-4cb6-91d4-20a709d8b43d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

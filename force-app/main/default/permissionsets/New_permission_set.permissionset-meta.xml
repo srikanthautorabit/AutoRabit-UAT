@@ -12,10 +12,6 @@
         <object>QuickText</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <recordTypeVisibilities>
-        <recordType>Account.Partner_Account</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
     <tabSettings>
         <tab>standard-QuickText</tab>
         <visibility>Visible</visibility>

@@ -58,4 +58,5 @@
     <description>A bot from scratch.</description>
     <label>Jana Copy</label>
     <logPrivateConversationData>true</logPrivateConversationData>
+    <richContentEnabled>false</richContentEnabled>
 </Bot>

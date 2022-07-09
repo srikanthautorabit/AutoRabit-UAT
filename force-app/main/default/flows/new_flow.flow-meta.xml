@@ -47,7 +47,7 @@
         <isInput>true</isInput>
         <isOutput>false</isOutput>
         <value>
-            <stringValue/>
+            <stringValue></stringValue>
         </value>
     </variables>
     <variables>
@@ -57,7 +57,7 @@
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <value>
-            <stringValue/>
+            <stringValue></stringValue>
         </value>
     </variables>
     <variables>
@@ -67,7 +67,7 @@
         <isInput>true</isInput>
         <isOutput>false</isOutput>
         <value>
-            <stringValue/>
+            <stringValue></stringValue>
         </value>
     </variables>
 </Flow>

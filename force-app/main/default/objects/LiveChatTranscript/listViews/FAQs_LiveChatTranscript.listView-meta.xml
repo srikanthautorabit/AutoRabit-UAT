@@ -5,6 +5,6 @@
     <label>FAQs</label>
     <queue>FAQs</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

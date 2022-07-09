@@ -20,7 +20,7 @@ Public class IUClass{
          caselist = [SELECT Id,Description,experience__c,sales_areas_are_you_experienced_in__c,education_you_have_completed__c FROM Case WHERE Id =:CaseId]; 
      }
      system.debug('caselist'+ caselist);
-    /*
+    
     
        
     for(Case Cas: [SELECT Id,Description,experience__c,sales_areas_are_you_experienced_in__c,education_you_have_completed__c FROM Case WHERE Id in: Trigger.new]){
@@ -28,13 +28,13 @@ Public class IUClass{
         if(Cas != null && Cas.Description != null){
            Cas.experience__c = '10';
            caselist.add(Cas);
-           recursive = true;
+          // recursive = true;
 
         }
        system.debug('Exper2'+ Cas.experience__c);
     }
     
     update caselist;
-     system.debug('Exper2'+ caselist);*/
+     system.debug('Exper2'+ caselist);
 }
 }

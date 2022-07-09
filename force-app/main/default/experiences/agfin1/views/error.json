@@ -29,6 +29,7 @@
       } ],
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
+      "scopedBrandingSetId" : null,
       "type" : "component"
     } ],
     "id" : "4b7b3bdf-001d-4ca3-878d-25dc911e1e87",
