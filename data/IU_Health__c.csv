@@ -1,0 +1,2 @@
+Id,OwnerId,IsDeleted,Name,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,SystemModstamp,LastViewedDate,LastReferencedDate,ConnectionReceivedId,ConnectionSentId,Customer_Name__c,Customer_Email__c,Phone__c,TYPE__c,Tracking_Number__c
+"a062x000009sBEJAA2","0052x000000VJeKAAW","false","Ganji","2021-09-03T08:08:54.000Z","0052x000000VJeKAAW","2021-09-03T08:08:54.000Z","0052x000000VJeKAAW","2021-09-03T08:08:54.000Z","2021-09-03T08:08:55.000Z","2021-09-03T08:08:55.000Z",,,"Ganji",,"09642218768",,"23456789"
