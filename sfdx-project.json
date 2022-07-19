@@ -1,16 +1,16 @@
 {
   "packageDirectories" : [ {
-    "path" : "UNLOCKED",
-    "default" : false,
-    "package" : "VWFS TEST",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
     "path" : "UATModule-Parent",
     "default" : true,
     "package" : "UATModule-Parent",
     "versionName" : "UATModule-Parent",
     "versionNumber" : "1.0.0.0"
+  }, {
+    "path" : "UNLOCKED",
+    "default" : false,
+    "package" : "VWFS TEST",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
   }, {
     "path" : "force-app",
     "default" : false
@@ -31,6 +31,7 @@
     "UATModule-Parent" : "0Ho2x0000004CeGCAU",
     "UATModule-Parent@1.0.0.0" : "04t2x000003vSKPAA2",
     "VWFS TEST" : "0Ho2x000000PBfpCAG",
-    "VWFS TEST@2.0.0.0" : "04t2x000004Rm2xAAC"
+    "VWFS TEST@2.0.0.0" : "04t2x000004Rm2xAAC",
+    "VWFS TEST@3.0.0.0" : "04t2x000004Rm32AAC"
   }
 }
