@@ -1,0 +1,9 @@
+.toastMessage{
+white-space: break-spaces !important;
+}
+.dropDownClass .slds-dropdown {
+    
+    top:-133px !important;
+    max-height:300px;
+    
+}
