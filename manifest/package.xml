@@ -3908,6 +3908,7 @@
         <members>AutoRABITPOC</members>
         <members>AutoRABITPOC123</members>
         <members>CSSFILE</members>
+         <members>toastMessage</members>
         <members>SDOC__SDoc</members>
         <members>SDOC__ckEditor</members>
         <members>SDOC__jQueryUI</members>
