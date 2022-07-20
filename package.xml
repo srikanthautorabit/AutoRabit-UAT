@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>53.0</version>
+    <version>54.0</version>
     <types>
         <members>AccountHandler</members>
         <members>AccountListController</members>
@@ -14,9 +14,11 @@
         <members>CommunitiesSelfRegConfirmControllerTest</members>
         <members>CommunitiesSelfRegController</members>
         <members>CommunitiesSelfRegControllerTest</members>
+        <members>DemoClass</members>
         <members>ForgotPasswordController</members>
         <members>ForgotPasswordControllerTest</members>
         <members>IUClass</members>
+        <members>IUhealthClass</members>
         <members>Leads_view</members>
         <members>LightningForgotPasswordController</members>
         <members>LightningForgotPasswordControllerTest</members>
@@ -24,9 +26,43 @@
         <members>LightningLoginFormControllerTest</members>
         <members>LightningSelfRegisterController</members>
         <members>LightningSelfRegisterControllerTest</members>
+        <members>MicrobatchSelfRegController</members>
+        <members>MicrobatchSelfRegControllerTest</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>PocController</members>
+        <members>SDOC__SDAuth</members>
+        <members>SDOC__SDBatch</members>
+        <members>SDOC__SDConfig</members>
+        <members>SDOC__SDCreateController</members>
+        <members>SDOC__SDEmailController</members>
+        <members>SDOC__SDFileList</members>
+        <members>SDOC__SDFileUpload</members>
+        <members>SDOC__SDImage</members>
+        <members>SDOC__SDJobTemplateController</members>
+        <members>SDOC__SDListCreateController</members>
+        <members>SDOC__SDMigrateController</members>
+        <members>SDOC__SDPDFUploadController</members>
+        <members>SDOC__SDQueue</members>
+        <members>SDOC__SDQueue2</members>
+        <members>SDOC__SDQueueMaster</members>
+        <members>SDOC__SDQueueRetry</members>
+        <members>SDOC__SDRedirect</members>
+        <members>SDOC__SDRest</members>
+        <members>SDOC__SDSG</members>
+        <members>SDOC__SDTemplateController</members>
+        <members>SDOC__SDTemplateEditor</members>
+        <members>SDOC__SDTemplateWrapper</members>
+        <members>SDOC__SDTestSuite</members>
+        <members>SDOC__SDTranslate</members>
+        <members>SDOC__SDUtil</members>
+        <members>SDOC__SDXMLDom</members>
+        <members>SDOC__SDXMLDomTest</members>
+        <members>SDOC__SD_XMLDom</members>
+        <members>SDOC__SD_XMLDomTest</members>
+        <members>SDOC__SD_XMLNode</members>
+        <members>SDOC__SD_XMLNodeTest</members>
+        <members>SDOC__SD_XMLUtils</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
@@ -34,10 +70,14 @@
         <members>UpdateEmailDetailsTest</members>
         <members>checkRecursive</members>
         <members>newapex</members>
+        <members>newclass</members>
         <members>rochetest</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>SDOC__HelpIcon</members>
+        <members>SDOC__SDTemplateCSSComponent</members>
+        <members>SDOC__SDXMLComponent</members>
         <members>SiteFooter</members>
         <members>SiteHeader</members>
         <members>SiteLogin</members>
@@ -64,7 +104,43 @@
         <members>ForgotPasswordConfirm</members>
         <members>IdeasHome</members>
         <members>InMaintenance</members>
+        <members>MicrobatchSelfReg</members>
         <members>MyProfilePage</members>
+        <members>SDOC__SDAudit</members>
+        <members>SDOC__SDAuth</members>
+        <members>SDOC__SDConfig</members>
+        <members>SDOC__SDCreate1</members>
+        <members>SDOC__SDCreate2</members>
+        <members>SDOC__SDCreate3</members>
+        <members>SDOC__SDEdit</members>
+        <members>SDOC__SDEmail</members>
+        <members>SDOC__SDFileList</members>
+        <members>SDOC__SDFileReplace</members>
+        <members>SDOC__SDFileUpload</members>
+        <members>SDOC__SDJobContact</members>
+        <members>SDOC__SDJobDOC</members>
+        <members>SDOC__SDJobDOCX</members>
+        <members>SDOC__SDJobDelete</members>
+        <members>SDOC__SDJobPDF</members>
+        <members>SDOC__SDJobXML</members>
+        <members>SDOC__SDLicenses</members>
+        <members>SDOC__SDMigrate</members>
+        <members>SDOC__SDPDFUpload</members>
+        <members>SDOC__SDRedirect</members>
+        <members>SDOC__SDRedirectGD</members>
+        <members>SDOC__SDRelationshipDelete</members>
+        <members>SDOC__SDRestoreTemplate</members>
+        <members>SDOC__SDTemplateCSV</members>
+        <members>SDOC__SDTemplateDOC</members>
+        <members>SDOC__SDTemplateDOCX</members>
+        <members>SDOC__SDTemplateEditor</members>
+        <members>SDOC__SDTemplateEditorProperties</members>
+        <members>SDOC__SDTemplateHTML</members>
+        <members>SDOC__SDTemplatePDF</members>
+        <members>SDOC__SDTemplatePPT</members>
+        <members>SDOC__SDTemplateXLS</members>
+        <members>SDOC__SDTemplateXML</members>
+        <members>SDOC__SDTranslate</members>
         <members>SiteLogin</members>
         <members>SiteRegister</members>
         <members>SiteRegisterConfirm</members>
@@ -75,6 +151,11 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>SDOC__SDJobs</members>
+        <members>SDOC__SDRelationship</members>
+        <members>SDOC__SDRelationshipDelete</members>
+        <members>SDOC__SDTemplate</members>
+        <members>SDOC__SDocTrigger</members>
         <members>UpdateEmailDetails</members>
         <name>ApexTrigger</name>
     </types>
@@ -100,6 +181,8 @@
     <types>
         <members>AutoRABITMainCMP</members>
         <members>AutoRABITPOC</members>
+        <members>CalculatorApp</members>
+        <members>calculator</members>
         <members>forgotPassword</members>
         <members>leadslist</members>
         <members>leadslistview</members>
@@ -124,8 +207,18 @@
     <types>
         <members>Jana.v1</members>
         <members>Jana.v2</members>
+        <members>Jana.v3</members>
         <members>Jana_Copy.v1</members>
         <name>BotVersion</name>
+    </types>
+    <types>
+        <members>Case.AUTO CASES</members>
+        <members>Case.RABIT CASES</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>mule__dataloader_io2_oauth_c4s__dataloader_io2_oauth_c4sCanvas</members>
+        <name>CanvasMetadata</name>
     </types>
     <types>
         <members>SelfSignedCert_24Oct2020_191535</members>
@@ -140,12 +233,14 @@
         <name>Community</name>
     </types>
     <types>
+        <members>SDOC__S_Docs</members>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Commerce</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
+        <members>standard__DataManager</members>
         <members>standard__Insights</members>
         <members>standard__LightningBolt</members>
         <members>standard__LightningInstrumentation</members>
@@ -213,6 +308,8 @@
         <members>Account.Site</members>
         <members>Account.TESTSRIKANTH__c</members>
         <members>Account.TickerSymbol</members>
+        <members>Account.Tier</members>
+        <members>Account.Tracking_Number__c</members>
         <members>Account.Tradestyle</members>
         <members>Account.Type</members>
         <members>Account.UpsellOpportunity__c</members>
@@ -221,6 +318,7 @@
         <members>Account.location__c</members>
         <members>Account.new_date__c</members>
         <members>Account.number_of_contacts__c</members>
+        <members>Account.testprofile__c</members>
         <members>Account.unique_name__c</members>
         <members>AccountBrand.AccountId</members>
         <members>AccountBrand.CompanyName</members>
@@ -255,12 +353,15 @@
         <members>AgentWork.CancelDateTime</members>
         <members>AgentWork.CapacityPercentage</members>
         <members>AgentWork.CapacityWeight</members>
+        <members>AgentWork.ChannelData</members>
         <members>AgentWork.CloseDateTime</members>
         <members>AgentWork.DeclineDateTime</members>
         <members>AgentWork.DeclineReason</members>
+        <members>AgentWork.FlagMessage</members>
         <members>AgentWork.HandleTime</members>
         <members>AgentWork.IsAutoAcceptEnabled</members>
         <members>AgentWork.IsConference</members>
+        <members>AgentWork.IsFlagged</members>
         <members>AgentWork.IsPreferredUserRequired</members>
         <members>AgentWork.IsTransfer</members>
         <members>AgentWork.LASessionId</members>
@@ -290,6 +391,7 @@
         <members>AlternativePaymentMethod.GatewayToken</members>
         <members>AlternativePaymentMethod.GatewayTokenDetails</members>
         <members>AlternativePaymentMethod.IpAddress</members>
+        <members>AlternativePaymentMethod.IsAutoPayEnabled</members>
         <members>AlternativePaymentMethod.MacAddress</members>
         <members>AlternativePaymentMethod.NickName</members>
         <members>AlternativePaymentMethod.OwnerId</members>
@@ -310,6 +412,19 @@
         <members>ApiAnomalyEventStore.Uri</members>
         <members>ApiAnomalyEventStore.UserAgent</members>
         <members>ApiAnomalyEventStore.UserId</members>
+        <members>AppointmentInvitation.AppointmentTopicId</members>
+        <members>AppointmentInvitation.AppointmentTopicType</members>
+        <members>AppointmentInvitation.BookingEndDate</members>
+        <members>AppointmentInvitation.BookingStartDate</members>
+        <members>AppointmentInvitation.InvitationIdentifier</members>
+        <members>AppointmentInvitation.InvitationUrl</members>
+        <members>AppointmentInvitation.IsActive</members>
+        <members>AppointmentInvitation.OwnerId</members>
+        <members>AppointmentInvitation.ServiceTerritoryId</members>
+        <members>AppointmentInvitation.UrlExpiryDate</members>
+        <members>AppointmentInvitee.AppointmentInvitationId</members>
+        <members>AppointmentInvitee.IsRequiredResource</members>
+        <members>AppointmentInvitee.ParticipantServiceResourceId</members>
         <members>AppointmentTopicTimeSlot.AppointmentTopicTimeSlotKey</members>
         <members>AppointmentTopicTimeSlot.Name</members>
         <members>AppointmentTopicTimeSlot.OperatingHoursId</members>
@@ -317,9 +432,11 @@
         <members>AppointmentTopicTimeSlot.WorkTypeGroupId</members>
         <members>AppointmentTopicTimeSlot.WorkTypeId</members>
         <members>Asset.AccountId</members>
+        <members>Asset.Address</members>
         <members>Asset.AssetLevel</members>
         <members>Asset.AssetProvidedById</members>
         <members>Asset.AssetServicedById</members>
+        <members>Asset.ConsequenceOfFailure</members>
         <members>Asset.ContactId</members>
         <members>Asset.CurrentAmount</members>
         <members>Asset.CurrentLifecycleEndDate</members>
@@ -440,7 +557,11 @@
         <members>AuthorizationFormText.SummaryAuthFormText</members>
         <members>AutoRABIT_POC__c.Abridged_Problem_Statement__c</members>
         <members>AutoRABIT_POC__c.Customer_POC_Request__c</members>
+        <members>AutoRABIT_POC__c.Q2_Demo__c</members>
         <members>AutoRABIT_POC__c.Use_Cases_in_AutoRABIT__c</members>
+        <members>BusinessBrand.Name</members>
+        <members>BusinessBrand.OrgId</members>
+        <members>BusinessBrand.ParentId</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -526,6 +647,7 @@
         <members>CardPaymentMethod.GatewayTokenEncrypted</members>
         <members>CardPaymentMethod.InputCardNumber</members>
         <members>CardPaymentMethod.IpAddress</members>
+        <members>CardPaymentMethod.IsAutoPayEnabled</members>
         <members>CardPaymentMethod.MacAddress</members>
         <members>CardPaymentMethod.NickName</members>
         <members>CardPaymentMethod.PaymentGatewayId</members>
@@ -592,6 +714,7 @@
         <members>CommSubscriptionChannelType.EngagementChannelTypeId</members>
         <members>CommSubscriptionChannelType.Name</members>
         <members>CommSubscriptionChannelType.OwnerId</members>
+        <members>CommSubscriptionConsent.BusinessBrandId</members>
         <members>CommSubscriptionConsent.CommSubscriptionChannelTypeId</members>
         <members>CommSubscriptionConsent.ConsentCapturedDateTime</members>
         <members>CommSubscriptionConsent.ConsentCapturedSource</members>
@@ -601,6 +724,7 @@
         <members>CommSubscriptionConsent.EffectiveToDate</members>
         <members>CommSubscriptionConsent.Name</members>
         <members>CommSubscriptionConsent.OwnerId</members>
+        <members>CommSubscriptionConsent.PartyRoleId</members>
         <members>CommSubscriptionTiming.CommSubscriptionConsentId</members>
         <members>CommSubscriptionTiming.Offset</members>
         <members>CommSubscriptionTiming.PreferredTimeEnd</members>
@@ -670,6 +794,7 @@
         <members>ContactPointAddress.ParentId</members>
         <members>ContactPointAddress.PreferenceRank</members>
         <members>ContactPointAddress.UsageType</members>
+        <members>ContactPointConsent.BusinessBrandId</members>
         <members>ContactPointConsent.CaptureContactPointType</members>
         <members>ContactPointConsent.CaptureDate</members>
         <members>ContactPointConsent.CaptureSource</members>
@@ -680,6 +805,7 @@
         <members>ContactPointConsent.EffectiveTo</members>
         <members>ContactPointConsent.EngagementChannelTypeId</members>
         <members>ContactPointConsent.Name</members>
+        <members>ContactPointConsent.PartyRoleId</members>
         <members>ContactPointConsent.PrivacyConsentStatus</members>
         <members>ContactPointEmail.ActiveFromDate</members>
         <members>ContactPointEmail.ActiveToDate</members>
@@ -714,6 +840,7 @@
         <members>ContactPointPhone.PreferenceRank</members>
         <members>ContactPointPhone.TelephoneNumber</members>
         <members>ContactPointPhone.UsageType</members>
+        <members>ContactPointTypeConsent.BusinessBrandId</members>
         <members>ContactPointTypeConsent.CaptureContactPointType</members>
         <members>ContactPointTypeConsent.CaptureDate</members>
         <members>ContactPointTypeConsent.CaptureSource</members>
@@ -725,6 +852,7 @@
         <members>ContactPointTypeConsent.EngagementChannelTypeId</members>
         <members>ContactPointTypeConsent.Name</members>
         <members>ContactPointTypeConsent.PartyId</members>
+        <members>ContactPointTypeConsent.PartyRoleId</members>
         <members>ContactPointTypeConsent.PrivacyConsentStatus</members>
         <members>ContactRequest.OwnerId</members>
         <members>ContactRequest.PreferredChannel</members>
@@ -776,12 +904,18 @@
         <members>CredentialStuffingEventStore.Summary</members>
         <members>CredentialStuffingEventStore.UserAgent</members>
         <members>CredentialStuffingEventStore.UserId</members>
+        <members>CreditMemo.AppType</members>
+        <members>CreditMemo.Balance</members>
         <members>CreditMemo.BillToContactId</members>
         <members>CreditMemo.BillingAccountId</members>
+        <members>CreditMemo.CreationMode</members>
         <members>CreditMemo.CreditDate</members>
         <members>CreditMemo.CreditMemoNumber</members>
         <members>CreditMemo.Description</members>
+        <members>CreditMemo.ExternalReference</members>
+        <members>CreditMemo.ExternalReferenceDataSource</members>
         <members>CreditMemo.OwnerId</members>
+        <members>CreditMemo.ReferenceEntityId</members>
         <members>CreditMemo.Status</members>
         <members>CreditMemo.TotalAdjustmentAmount</members>
         <members>CreditMemo.TotalAdjustmentAmountWithTax</members>
@@ -792,6 +926,16 @@
         <members>CreditMemo.TotalChargeAmountWithTax</members>
         <members>CreditMemo.TotalChargeTaxAmount</members>
         <members>CreditMemo.TotalTaxAmount</members>
+        <members>CreditMemoInvApplication.Amount</members>
+        <members>CreditMemoInvApplication.AppliedDate</members>
+        <members>CreditMemoInvApplication.CreditMemoId</members>
+        <members>CreditMemoInvApplication.Date</members>
+        <members>CreditMemoInvApplication.Description</members>
+        <members>CreditMemoInvApplication.EffectiveDate</members>
+        <members>CreditMemoInvApplication.ImpactAmount</members>
+        <members>CreditMemoInvApplication.InvoiceId</members>
+        <members>CreditMemoInvApplication.Type</members>
+        <members>CreditMemoInvApplication.UnappliedDate</members>
         <members>CreditMemoLine.AdjustmentAmount</members>
         <members>CreditMemoLine.AdjustmentAmountWithTax</members>
         <members>CreditMemoLine.AdjustmentTaxAmount</members>
@@ -804,6 +948,7 @@
         <members>CreditMemoLine.LineAmount</members>
         <members>CreditMemoLine.Name</members>
         <members>CreditMemoLine.Product2Id</members>
+        <members>CreditMemoLine.ReferenceEntityItemId</members>
         <members>CreditMemoLine.ReferenceEntityItemTypeCode</members>
         <members>CreditMemoLine.RelatedLineId</members>
         <members>CreditMemoLine.StartDate</members>
@@ -814,6 +959,10 @@
         <members>CreditMemoLine.TaxName</members>
         <members>CreditMemoLine.TaxRate</members>
         <members>CreditMemoLine.Type</members>
+        <members>Customer.CustomerStatusType</members>
+        <members>Customer.Name</members>
+        <members>Customer.PartyId</members>
+        <members>Customer.TotalLifeTimeValue</members>
         <members>Customer_POC_Request__c.Customer_Name__c</members>
         <members>Customer_POC_Request__c.Email__c</members>
         <members>Customer_POC_Request__c.Phone__c</members>
@@ -924,6 +1073,8 @@
         <members>DelegatedAccount.Name</members>
         <members>DelegatedAccount.OwnerId</members>
         <members>DelegatedAccount.TargetId</members>
+        <members>DemoObject__c.Email__c</members>
+        <members>DemoObject__c.Name__c</members>
         <members>DemoObject__c.TYPE__c</members>
         <members>DigitalWallet.AccountId</members>
         <members>DigitalWallet.AuditEmail</members>
@@ -935,6 +1086,7 @@
         <members>DigitalWallet.GatewayTokenDetails</members>
         <members>DigitalWallet.GatewayTokenEncrypted</members>
         <members>DigitalWallet.IpAddress</members>
+        <members>DigitalWallet.IsAutoPayEnabled</members>
         <members>DigitalWallet.MacAddress</members>
         <members>DigitalWallet.NickName</members>
         <members>DigitalWallet.PaymentGatewayId</members>
@@ -1273,7 +1425,16 @@
         <members>Location.RemodelEndDate</members>
         <members>Location.RemodelStartDate</members>
         <members>Location.RootLocationId</members>
+        <members>Location.ShouldSyncWithOci</members>
         <members>Location.TimeZone</members>
+        <members>LocationGroup.Description</members>
+        <members>LocationGroup.ExternalReference</members>
+        <members>LocationGroup.IsEnabled</members>
+        <members>LocationGroup.LocationGroupName</members>
+        <members>LocationGroup.OwnerId</members>
+        <members>LocationGroup.ShouldSyncWithOci</members>
+        <members>LocationGroupAssignment.LocationGroupId</members>
+        <members>LocationGroupAssignment.LocationId</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.IsLightningSupported</members>
@@ -1318,6 +1479,9 @@
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
+        <members>OperatingHoursHoliday.DateAndTime</members>
+        <members>OperatingHoursHoliday.HolidayId</members>
+        <members>OperatingHoursHoliday.OperatingHoursId</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -1455,6 +1619,7 @@
         <members>PartnerMarketingBudget.Type</members>
         <members>PartnerRole.ReverseRole</members>
         <members>PartyConsent.Action</members>
+        <members>PartyConsent.BusinessBrandId</members>
         <members>PartyConsent.CaptureContactPointType</members>
         <members>PartyConsent.CaptureDate</members>
         <members>PartyConsent.CaptureSource</members>
@@ -1464,6 +1629,7 @@
         <members>PartyConsent.Name</members>
         <members>PartyConsent.OwnerId</members>
         <members>PartyConsent.PartyId</members>
+        <members>PartyConsent.PartyRoleId</members>
         <members>PartyConsent.PrivacyConsentStatus</members>
         <members>Payment.AccountId</members>
         <members>Payment.Amount</members>
@@ -1768,6 +1934,308 @@
         <members>ReturnOrderLineItem.TotalTaxAmount</members>
         <members>ReturnOrderLineItem.TypeCode</members>
         <members>ReturnOrderLineItem.UnitPrice</members>
+        <members>SDOC__SDField__c.SDOC__CurrencyValue__c</members>
+        <members>SDOC__SDField__c.SDOC__DateTimeValue__c</members>
+        <members>SDOC__SDField__c.SDOC__DateValue__c</members>
+        <members>SDOC__SDField__c.SDOC__EmailValue__c</members>
+        <members>SDOC__SDField__c.SDOC__FieldName__c</members>
+        <members>SDOC__SDField__c.SDOC__FieldType__c</members>
+        <members>SDOC__SDField__c.SDOC__NumberValue__c</members>
+        <members>SDOC__SDField__c.SDOC__PhoneValue__c</members>
+        <members>SDOC__SDField__c.SDOC__SDoc__c</members>
+        <members>SDOC__SDField__c.SDOC__TextValue__c</members>
+        <members>SDOC__SDJob__c.SDOC__Account__c</members>
+        <members>SDOC__SDJob__c.SDOC__Aid__c</members>
+        <members>SDOC__SDJob__c.SDOC__Apex_Job_ID__c</members>
+        <members>SDOC__SDJob__c.SDOC__Attempts__c</members>
+        <members>SDOC__SDJob__c.SDOC__Batch_Group_ID__c</members>
+        <members>SDOC__SDJob__c.SDOC__Batch_Number__c</members>
+        <members>SDOC__SDJob__c.SDOC__Contact__c</members>
+        <members>SDOC__SDJob__c.SDOC__Data_Uneditable__c</members>
+        <members>SDOC__SDJob__c.SDOC__Did__c</members>
+        <members>SDOC__SDJob__c.SDOC__Doclist__c</members>
+        <members>SDOC__SDJob__c.SDOC__EmailURL__c</members>
+        <members>SDOC__SDJob__c.SDOC__Email_From__c</members>
+        <members>SDOC__SDJob__c.SDOC__Email_Params__c</members>
+        <members>SDOC__SDJob__c.SDOC__Fid__c</members>
+        <members>SDOC__SDJob__c.SDOC__Finish_Pending_Docs__c</members>
+        <members>SDOC__SDJob__c.SDOC__Include_All_Related_Files__c</members>
+        <members>SDOC__SDJob__c.SDOC__JobURL__c</members>
+        <members>SDOC__SDJob__c.SDOC__Job_Chained_From__c</members>
+        <members>SDOC__SDJob__c.SDOC__Lead__c</members>
+        <members>SDOC__SDJob__c.SDOC__LineItemDataXML__c</members>
+        <members>SDOC__SDJob__c.SDOC__NetworkId__c</members>
+        <members>SDOC__SDJob__c.SDOC__Num_Partitions__c</members>
+        <members>SDOC__SDJob__c.SDOC__ObjApiName__c</members>
+        <members>SDOC__SDJob__c.SDOC__ObjSortValFieldsForSDoc__c</members>
+        <members>SDOC__SDJob__c.SDOC__ObjSortValNum__c</members>
+        <members>SDOC__SDJob__c.SDOC__ObjSortVal__c</members>
+        <members>SDOC__SDJob__c.SDOC__Oid__c</members>
+        <members>SDOC__SDJob__c.SDOC__Partition_Number__c</members>
+        <members>SDOC__SDJob__c.SDOC__Position_In_Batch__c</members>
+        <members>SDOC__SDJob__c.SDOC__Process_Job_Splitters_Concurrently__c</members>
+        <members>SDOC__SDJob__c.SDOC__RecordData2XML__c</members>
+        <members>SDOC__SDJob__c.SDOC__RecordDataXML__c</members>
+        <members>SDOC__SDJob__c.SDOC__RunAs__c</members>
+        <members>SDOC__SDJob__c.SDOC__SDoc1_View__c</members>
+        <members>SDOC__SDJob__c.SDOC__SDoc1__c</members>
+        <members>SDOC__SDJob__c.SDOC__SDoc2_View__c</members>
+        <members>SDOC__SDJob__c.SDOC__SDoc2__c</members>
+        <members>SDOC__SDJob__c.SDOC__SSign_Envelope_ID__c</members>
+        <members>SDOC__SDJob__c.SDOC__SSign_First_Signer_URL__c</members>
+        <members>SDOC__SDJob__c.SDOC__SSign_Language__c</members>
+        <members>SDOC__SDJob__c.SDOC__SendEmail__c</members>
+        <members>SDOC__SDJob__c.SDOC__Start__c</members>
+        <members>SDOC__SDJob__c.SDOC__Status_Details__c</members>
+        <members>SDOC__SDJob__c.SDOC__Status_Link__c</members>
+        <members>SDOC__SDJob__c.SDOC__Status__c</members>
+        <members>SDOC__SDJob__c.SDOC__TaskID__c</members>
+        <members>SDOC__SDJob__c.SDOC__Task_Subject__c</members>
+        <members>SDOC__SDJob__c.SDOC__Type__c</members>
+        <members>SDOC__SDJob__c.SDOC__Uses_File_Master__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Account__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Asset__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Case__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Contact__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Contract__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Created__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Document_Comment__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Document_Created_On__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Document_Name__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Document_Number__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Document_Status__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Document_Type__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Edit_Link__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Email_Link__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Lead__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Opportunity__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Product2__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Product__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_Comment__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_GD_Link__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_GD_Status_Text__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_GD_Status__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_Status__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__SDoc__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Solution__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__Upload__c</members>
+        <members>SDOC__SDRelationship__c.SDOC__View_Link__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Active__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Allow_Create_New_Attachment__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Allow_Edit__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Allow_Toggle_Task_Creation__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Auto_Create_Attachment_On_Email__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Base_Object__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Base_Related_Object__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Box_Enabled__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Component_IDs__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__ContactRole__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Contact_Quick_Pick_Clause__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Content_Version_Field_JSON__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Core_Version__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Create_Attachment_Name__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Create_Attachment__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Create_File__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Create_New_Attachment_with_Each_Edit__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Default__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Description__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Document_Category__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Dont_Save_Mass_Merge_Docs__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Dont_Wrap_Word_Doc_In_Table__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__E_Sign_Days_Until_Expiration__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__E_Sign_Vendor__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__E_Signature_Solution__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_From_OrgWideAddressId__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_From_OrgWideAddress_Only__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_From_Use_Signature_If_User_Email__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_From_User_Override__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_Body__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_SendTo__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_Subject__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_bcc__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_cc__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Require_Subject__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Restricted_Domains__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_ReturnToRecord__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_SendTo__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Send_To_Long__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_Subject__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_bcc__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Email_cc__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Enable_Detail_Reports__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Finished_Preprocessing_Docx_Template__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Footer2__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__FooterSame__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Footer__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Format_Icon__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__GD_Enabled__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__GD_Use_Native_Format__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Google_Drive_Folder_Id__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Has_Error__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Header2__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__HeaderSame__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Header__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__InclArticles__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Language__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MSX_Rich_Text_Image_Dimensions__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Embed_Images__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_FPFooter_BackGrndImgStyle__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_FPFooter_BackGrndImgUrl__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_FPFooter_Content__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_FPHeader_BackGrndImgStyle__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_FPHeader_BackGrndImgUrl__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_FPHeader_Content__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Header_And_Footer_Definitions__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Line_Items_In_Header_Or_Footer__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Definition__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Footer_Margin__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Header_Margin__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Height__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Margin_Left__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Margin_Right__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Width__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_SPFooter_BackGrndImgStyle__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_SPFooter_BackGrndImgUrl__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_SPFooter_Content__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_SPHeader_BackGrndImgStyle__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_SPHeader_BackGrndImgUrl__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_SPHeader_Content__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Unit_of_Measure__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__MS_Use_Advanced_Properties__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Allow_Email__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Clear_Email_Jobs__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Clear_Jobs__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Exclude_Page_Breaks__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Page_Break_Every_N_Docs__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Sort_Field__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Summary_Document__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Master_Template__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Num_Splitters__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Org_Agnostic_ID__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__PDF_Unicode__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Preview_ID__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Related_Lists__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Remind_After_Generate__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Remind_Before_Expire__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Remove_Attachment_On_Delete__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Restore_Link__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__S3_Enabled__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__SD_K__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__SSign_Hide_Logo__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Save_Data__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Show_Warning_Messages__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Tags_2__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Tags__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Task_Auto_Create_Default__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Task_Auto_Create__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Task_Details_Override__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Task_Due_Add_Business_Only__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Task_Due_Add_Days__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Task_Status__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Task_Subject__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_CSS_XML__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_Format__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML10__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML2__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML3__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML4__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML5__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML6__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML7__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML8__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML9__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode10__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode2__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode3__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode4__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode5__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode6__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode7__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode8__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode9__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Template_XML__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Terms_XML_Encode__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Terms_XML__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__TranslationTags__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Unicode_Level__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__User_Choice_Definitions__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Version_History_Keep_Limit__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__Version__c</members>
+        <members>SDOC__SDTemplate__c.SDOC__XML_Mass_Merge_Master_Tag__c</members>
+        <members>SDOC__SDoc__c.SDOC__Allow_Edit__c</members>
+        <members>SDOC__SDoc__c.SDOC__Attachment_ID__c</members>
+        <members>SDOC__SDoc__c.SDOC__Attachment_Name__c</members>
+        <members>SDOC__SDoc__c.SDOC__Comment__c</members>
+        <members>SDOC__SDoc__c.SDOC__Create_Attachment__c</members>
+        <members>SDOC__SDoc__c.SDOC__Create_File__c</members>
+        <members>SDOC__SDoc__c.SDOC__Data2__c</members>
+        <members>SDOC__SDoc__c.SDOC__Data3__c</members>
+        <members>SDOC__SDoc__c.SDOC__Data4__c</members>
+        <members>SDOC__SDoc__c.SDOC__Data_Uneditable__c</members>
+        <members>SDOC__SDoc__c.SDOC__Data__c</members>
+        <members>SDOC__SDoc__c.SDOC__Document_CSS__c</members>
+        <members>SDOC__SDoc__c.SDOC__Document_Format__c</members>
+        <members>SDOC__SDoc__c.SDOC__Document_Name__c</members>
+        <members>SDOC__SDoc__c.SDOC__Document_Number__c</members>
+        <members>SDOC__SDoc__c.SDOC__Document_Type__c</members>
+        <members>SDOC__SDoc__c.SDOC__Edit_Link__c</members>
+        <members>SDOC__SDoc__c.SDOC__Email_Link__c</members>
+        <members>SDOC__SDoc__c.SDOC__File_ID__c</members>
+        <members>SDOC__SDoc__c.SDOC__GD_Link__c</members>
+        <members>SDOC__SDoc__c.SDOC__GD_Status_Text__c</members>
+        <members>SDOC__SDoc__c.SDOC__GD_Status__c</members>
+        <members>SDOC__SDoc__c.SDOC__GD_Upload_By__c</members>
+        <members>SDOC__SDoc__c.SDOC__ISOCodeConversionRate__c</members>
+        <members>SDOC__SDoc__c.SDOC__ISOCodeCorporate__c</members>
+        <members>SDOC__SDoc__c.SDOC__ISOCodeObj__c</members>
+        <members>SDOC__SDoc__c.SDOC__LineItemData2XML__c</members>
+        <members>SDOC__SDoc__c.SDOC__LineItemData3XML__c</members>
+        <members>SDOC__SDoc__c.SDOC__LineItemDataXML__c</members>
+        <members>SDOC__SDoc__c.SDOC__ObjSortVal__c</members>
+        <members>SDOC__SDoc__c.SDOC__ObjectID15__c</members>
+        <members>SDOC__SDoc__c.SDOC__ObjectID18__c</members>
+        <members>SDOC__SDoc__c.SDOC__ObjectID__c</members>
+        <members>SDOC__SDoc__c.SDOC__ObjectType__c</members>
+        <members>SDOC__SDoc__c.SDOC__RecordData2XML__c</members>
+        <members>SDOC__SDoc__c.SDOC__RecordDataXML__c</members>
+        <members>SDOC__SDoc__c.SDOC__Related_ObjectID18__c</members>
+        <members>SDOC__SDoc__c.SDOC__RelationshipCount__c</members>
+        <members>SDOC__SDoc__c.SDOC__S3_ETag__c</members>
+        <members>SDOC__SDoc__c.SDOC__SDJob__c</members>
+        <members>SDOC__SDoc__c.SDOC__SDTemplate__c</members>
+        <members>SDOC__SDoc__c.SDOC__Status__c</members>
+        <members>SDOC__SDoc__c.SDOC__Task_Due_Date__c</members>
+        <members>SDOC__SDoc__c.SDOC__Task_Status__c</members>
+        <members>SDOC__SDoc__c.SDOC__Task_Subject__c</members>
+        <members>SDOC__SDoc__c.SDOC__Upload__c</members>
+        <members>SDOC__SDoc__c.SDOC__Version__c</members>
+        <members>SDOC__SDoc__c.SDOC__View_Link__c</members>
+        <members>SDOC__SDoc__c.SDOC__WM__c</members>
+        <members>SDOC__SDoc__c.sdoctest__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Allow_Templates_With_Error_to_Generate__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Concurrent_Master_Wait_Time__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppAudienceURL__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppCertificateName__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppConsumerKey__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppLoginURL__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppTokenURL__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppUserName__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Disable_SDJob_Get_Content_For_Data__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Dont_Run_SDTemplate_Trigger__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Enable_Create_Salesforce_Task_Feature__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Keep_Span_Tags_When_Using_Job_Splitters__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Platform_Encryption_Enabled__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Process_Job_Splitters_Concurrently__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__SDEdit_Custom_URL__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__SDRelationship_Lookup_Names__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__SDTemplateEditor_Page_Size__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__SD_Jobs_Batch_Size__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__SD_Jobs_Fail_If_Template_Error__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__SD_Jobs_Top_of_Queue__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Salesforce_Home_URL__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Send_SDJobs_Email_as_Future__c</members>
+        <members>SDOC__SDocsSettings__c.SDOC__Use_Legacy_AWS_S3_Spaces__c</members>
         <members>Scorecard.Description</members>
         <members>Scorecard.Name</members>
         <members>Scorecard.OwnerId</members>
@@ -1808,12 +2276,20 @@
         <members>ScratchOrgInfo.SourceOrg</members>
         <members>ScratchOrgInfo.Status</members>
         <members>ScratchOrgInfo.Username</members>
+        <members>Seller.ActiveFromDate</members>
+        <members>Seller.ActiveToDate</members>
+        <members>Seller.Name</members>
+        <members>Seller.PartyId</members>
+        <members>Seller.SalesAmount</members>
+        <members>Seller.SellerTier</members>
+        <members>Seller.SellerType</members>
         <members>ServiceAppointment.AccountId</members>
         <members>ServiceAppointment.ActualDuration</members>
         <members>ServiceAppointment.ActualEndTime</members>
         <members>ServiceAppointment.ActualStartTime</members>
         <members>ServiceAppointment.AdditionalInformation</members>
         <members>ServiceAppointment.Address</members>
+        <members>ServiceAppointment.AppointmentInvitationId</members>
         <members>ServiceAppointment.AppointmentType</members>
         <members>ServiceAppointment.ApptBookingInfoUrl</members>
         <members>ServiceAppointment.ArrivalWindowEndTime</members>
@@ -1891,6 +2367,18 @@
         <members>SessionHijackingEventStore.SourceIp</members>
         <members>SessionHijackingEventStore.Summary</members>
         <members>SessionHijackingEventStore.UserId</members>
+        <members>Shift.BackgroundColor</members>
+        <members>Shift.EndTime</members>
+        <members>Shift.Label</members>
+        <members>Shift.OwnerId</members>
+        <members>Shift.ServiceResourceId</members>
+        <members>Shift.ServiceTerritoryId</members>
+        <members>Shift.StartTime</members>
+        <members>Shift.Status</members>
+        <members>Shift.StatusCategory</members>
+        <members>Shift.TimeSlotType</members>
+        <members>Shift.WorkTypeGroupId</members>
+        <members>Shift.WorkTypeId</members>
         <members>SkillRequirement.IsAdditionalSkill</members>
         <members>SkillRequirement.RelatedRecordId</members>
         <members>SkillRequirement.SkillId</members>
@@ -1917,6 +2405,7 @@
         <members>Task.CallDurationInSeconds</members>
         <members>Task.CallObject</members>
         <members>Task.CallType</members>
+        <members>Task.CompletedDateTime</members>
         <members>Task.Description</members>
         <members>Task.Email</members>
         <members>Task.IsRecurrence</members>
@@ -1995,6 +2484,19 @@
         <members>UserServicePresence.StatusStartDate</members>
         <members>UserServicePresence.UserId</members>
         <members>UserTerritory2Association.RoleInTerritory2</members>
+        <members>WebStore.DefaultLanguage</members>
+        <members>WebStore.Description</members>
+        <members>WebStore.ExternalReference</members>
+        <members>WebStore.MaxValuesPerFacet</members>
+        <members>WebStore.Name</members>
+        <members>WebStore.OrderActivationStatus</members>
+        <members>WebStore.OrderLifeCycleType</members>
+        <members>WebStore.PaginationSize</members>
+        <members>WebStore.PricingStrategy</members>
+        <members>WebStore.ProductGrouping</members>
+        <members>WebStore.SortByPricebookId</members>
+        <members>WebStore.StrikethroughPricebookId</members>
+        <members>WebStore.SupportedLanguages</members>
         <members>WorkType.BlockTimeAfterAppointment</members>
         <members>WorkType.BlockTimeAfterUnit</members>
         <members>WorkType.BlockTimeBeforeAppointment</members>
@@ -2029,6 +2531,7 @@
     </types>
     <types>
         <members>New_Custom_metadata.test_data</members>
+        <members>testdata.NEW_UAT</members>
         <members>testdata.asffs</members>
         <name>CustomMetadata</name>
     </types>
@@ -2044,6 +2547,9 @@
         <members>AgentWorkSkill</members>
         <members>AlternativePaymentMethod</members>
         <members>ApiAnomalyEventStore</members>
+        <members>AppointmentInvitation</members>
+        <members>AppointmentInvitee</members>
+        <members>AppointmentScheduleLog</members>
         <members>AppointmentTopicTimeSlot</members>
         <members>Asset</members>
         <members>AssetAction</members>
@@ -2058,6 +2564,7 @@
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
         <members>AutoRABIT_POC__c</members>
+        <members>BusinessBrand</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -2088,12 +2595,15 @@
         <members>ContractContactRole</members>
         <members>CredentialStuffingEventStore</members>
         <members>CreditMemo</members>
+        <members>CreditMemoInvApplication</members>
         <members>CreditMemoLine</members>
+        <members>Customer</members>
         <members>Customer_POC_Request__c</members>
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DelegatedAccount</members>
+        <members>DemoObject__c</members>
         <members>DigitalWallet</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -2118,6 +2628,9 @@
         <members>LeadCleanInfo</members>
         <members>LearningAssignment</members>
         <members>LearningAssignmentProgress</members>
+        <members>LearningItem</members>
+        <members>LearningItemAssignment</members>
+        <members>LearningItemProgress</members>
         <members>LearningLinkProgress</members>
         <members>LegalEntity</members>
         <members>LiveAgentSession</members>
@@ -2126,6 +2639,8 @@
         <members>LiveChatTranscriptSkill</members>
         <members>LiveChatVisitor</members>
         <members>Location</members>
+        <members>LocationGroup</members>
+        <members>LocationGroupAssignment</members>
         <members>MLModel</members>
         <members>MLModelFactor</members>
         <members>MLModelFactorComponent</members>
@@ -2144,6 +2659,7 @@
         <members>New_Custom_metadata__mdt</members>
         <members>New_custom_Object__c</members>
         <members>OperatingHours</members>
+        <members>OperatingHoursHoliday</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
@@ -2188,10 +2704,17 @@
         <members>ReturnOrderItemAdjustment</members>
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
+        <members>SDOC__SDField__c</members>
+        <members>SDOC__SDJob__c</members>
+        <members>SDOC__SDRelationship__c</members>
+        <members>SDOC__SDTemplate__c</members>
+        <members>SDOC__SDoc__c</members>
+        <members>SDOC__SDocsSettings__c</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
         <members>ScratchOrgInfo</members>
+        <members>Seller</members>
         <members>ServiceAppointment</members>
         <members>ServiceResource</members>
         <members>ServiceResourceSkill</members>
@@ -2199,6 +2722,7 @@
         <members>ServiceTerritoryMember</members>
         <members>ServiceTerritoryWorkType</members>
         <members>SessionHijackingEventStore</members>
+        <members>Shift</members>
         <members>Site</members>
         <members>SkillRequirement</members>
         <members>SocialPersona</members>
@@ -2217,6 +2741,7 @@
         <members>UserProvisioningRequest</members>
         <members>UserServicePresence</members>
         <members>UserTerritory2Association</members>
+        <members>WebStore</members>
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
@@ -2227,8 +2752,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Account-de</members>
         <members>AutoRABIT_POC__c-en_US</members>
         <members>Customer_POC_Request__c-en_US</members>
+        <members>DemoObject__c-en_US</members>
         <members>FCSA__c-en_US</members>
         <members>IU_Health__c-en_US</members>
         <members>MY_Partner__c-de</members>
@@ -2239,6 +2766,12 @@
         <members>New_Custom_metadata__mdt-en_US</members>
         <members>New_custom_Object__c-en_US</members>
         <members>QuickText-en_US</members>
+        <members>SDOC__SDField__c-en_US</members>
+        <members>SDOC__SDJob__c-en_US</members>
+        <members>SDOC__SDRelationship__c-en_US</members>
+        <members>SDOC__SDTemplate__c-en_US</members>
+        <members>SDOC__SDoc__c-en_US</members>
+        <members>SDOC__SDocsSettings__c-en_US</members>
         <members>Test_Object__c-en_US</members>
         <members>Test_URL__mdt-en_US</members>
         <members>test_CS__c-en_US</members>
@@ -2248,6 +2781,8 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>API53TESTING</members>
+        <members>AR53TEST</members>
         <members>AutoRABITPOC</members>
         <members>AutoRABITPOCS</members>
         <members>MyCommunity</members>
@@ -2260,13 +2795,23 @@
     <types>
         <members>AutoRABIT_POC__c</members>
         <members>Customer_POC_Request__c</members>
+        <members>IU_Health__c</members>
         <members>MY_Partner__c</members>
+        <members>SDOC__SDConfig</members>
+        <members>SDOC__SDJob__c</members>
+        <members>SDOC__SDTemplate__c</members>
+        <members>wk_comp_calc__Simple_Calc</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>test</members>
         <members>test/newdash</members>
         <name>Dashboard</name>
+    </types>
+    <types>
+        <members>SDOC__S_Docs_App</members>
+        <members>SDOC__S_Docs_App/SDOC__logo_square_white_png</members>
+        <name>Document</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -2281,11 +2826,13 @@
         <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
         <members>unfiled$public/CommunityChgEmailVerNewTemplate</members>
         <members>unfiled$public/CommunityChgEmailVerOldTemplate</members>
+        <members>unfiled$public/CommunityDeviceActEmailTemplate</members>
         <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
         <members>unfiled$public/CommunityLockoutEmailTemplate</members>
         <members>unfiled$public/CommunityVerificationEmailTemplate</members>
         <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
         <members>unfiled$public/DeactivationEmail</members>
+        <members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
         <members>unfiled$public/InvitationEmail</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/MyLIghtning_1607420915968</members>
@@ -2324,12 +2871,14 @@
         <name>EscalationRules</name>
     </types>
     <types>
+        <members>AR53TEST1</members>
         <members>agfin1</members>
         <name>ExperienceBundle</name>
     </types>
     <types>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
+        <members>NEWLIGHTNIGRECORD</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -2355,6 +2904,7 @@
         <name>IframeWhiteListUrlSettings</name>
     </types>
     <types>
+        <members>SDOC</members>
         <members>sf_com_apps</members>
         <members>wk_comp_calc</members>
         <name>InstalledPackage</name>
@@ -2373,7 +2923,9 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Account-SDOC__Account Layout SDoc</members>
         <members>AccountBrand-Account Brand Layout</members>
+        <members>AppointmentInvitation-Appointment Invitation Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AssetAction-Asset Action Layout</members>
         <members>AssetActionSource-Asset Action Source Layout</members>
@@ -2386,6 +2938,7 @@
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>AutoRABIT_POC__c-AutoRABIT POC Layout</members>
+        <members>BusinessBrand-Business Brand Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -2402,19 +2955,23 @@
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
         <members>Contact-Contact Layout</members>
+        <members>Contact-SDOC__Contact Layout SDoc</members>
         <members>ContactPointAddress-Contact Point Address Layout</members>
         <members>ContactPointEmail-Contact Point Email Layout</members>
         <members>ContactPointPhone-Contact Point Phone Layout</members>
         <members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>Contract-SDOC__Contract Layout SDoc</members>
         <members>CreditMemo-Credit Memo Layout</members>
         <members>CreditMemoLine-Credit Memo Line Layout</members>
+        <members>Customer-Customer Layout</members>
         <members>Customer_POC_Request__c-Customer POC Request Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
         <members>DelegatedAccount-External Managed Account Layout</members>
+        <members>DemoObject__c-DemoObject Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
@@ -2433,6 +2990,7 @@
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
+        <members>Lead-SDOC__Lead Layout SDoc</members>
         <members>LegalEntity-Legal Entity Layout</members>
         <members>LiveAgentSession-Chat Session Layout</members>
         <members>LiveChatTranscript-Chat Transcript Layout</members>
@@ -2449,6 +3007,7 @@
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
         <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity-SDOC__Opportunity Layout SDoc</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
@@ -2472,14 +3031,22 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>SDOC__SDField__c-SDOC__SDoc Field Layout</members>
+        <members>SDOC__SDJob__c-SDOC__SDJob Layout</members>
+        <members>SDOC__SDRelationship__c-SDOC__SDoc Relationship Layout</members>
+        <members>SDOC__SDTemplate__c-SDOC__SDoc Template Layout</members>
+        <members>SDOC__SDoc__c-SDOC__SDoc Layout</members>
+        <members>SDOC__SDocs_Metadata_Setting__mdt-SDOC__SDocs Metadata Setting Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>Seller-Seller Layout</members>
         <members>ServiceAppointment-Service Appointment Layout</members>
         <members>ServiceResource-Service Resource Layout</members>
         <members>ServiceResourceSkill-Service Resource Skill Layout</members>
         <members>ServiceTerritory-Service Territory Layout</members>
         <members>ServiceTerritoryMember-Service Territory Member Layout</members>
+        <members>Shift-Shift Layout</members>
         <members>SiteIframeWhiteListUrl-Trusted Domains for Inline Frames Layout</members>
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
@@ -2492,6 +3059,8 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>WebStore-Store Layout</members>
+        <members>WebStoreConfig-Web Store Configuration Layout</members>
         <members>WorkType-Work Type Layout</members>
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
@@ -2499,6 +3068,10 @@
         <members>testdata__mdt-testdata Layout</members>
         <members>vehicle__c-vehicle Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>aCCOUNTLIST</members>
+        <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>Account.AllAccounts</members>
@@ -2513,6 +3086,8 @@
         <members>Activity.MyActivities</members>
         <members>Activity.TodaysTasks</members>
         <members>Activity.UpcomingEvents</members>
+        <members>AppointmentInvitation.All_AppointmentInvitations</members>
+        <members>AppointmentInvitation.My_AppointmentInvitations</members>
         <members>Asset.AllAssets</members>
         <members>AssetAction.AssetAction</members>
         <members>AssetActionSource.AssetActionSource</members>
@@ -2522,6 +3097,7 @@
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
         <members>AutoRABIT_POC__c.All</members>
+        <members>BusinessBrand.All_BusinessBrands</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
@@ -2557,6 +3133,7 @@
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
         <members>CreditMemo.mine</members>
+        <members>Customer.All_Customers</members>
         <members>Customer_POC_Request__c.All</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
@@ -2620,10 +3197,16 @@
         <members>RefundLinePayment.RefundLinePayment</members>
         <members>ReturnOrder.All_ReturnOrders</members>
         <members>ReturnOrder.My_ReturnOrders</members>
+        <members>SDOC__SDJob__c.SDOC__All</members>
+        <members>SDOC__SDTemplate__c.SDOC__All</members>
+        <members>SDOC__SDTemplate__c.SDOC__All_Inactive_Templates</members>
+        <members>SDOC__SDTemplate__c.SDOC__Archived_Templates</members>
+        <members>SDOC__SDoc__c.SDOC__All</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
         <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
+        <members>Seller.All_Sellers</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
         <members>ServiceAppointment.MyScheduledAppointments</members>
@@ -2631,6 +3214,8 @@
         <members>ServiceResource.My_ServiceResources</members>
         <members>ServiceTerritory.All_ServiceTerritories</members>
         <members>ServiceTerritory.My_ServiceTerritories</members>
+        <members>Shift.All_Shifts</members>
+        <members>Shift.My_Shifts</members>
         <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
@@ -2661,6 +3246,8 @@
         <name>LiveChatDeployment</name>
     </types>
     <types>
+        <members>API53TESTING</members>
+        <members>AR53TEST</members>
         <members>AutoRABITPOCS</members>
         <members>MyCommunity</members>
         <members>Ursa Major Solar</members>
@@ -2716,11 +3303,15 @@
         <members>Default_Navigation3</members>
         <members>Default_Navigation4</members>
         <members>Default_Navigation5</members>
+        <members>Default_Navigation6</members>
+        <members>Default_Navigation7</members>
         <members>Default_User_Profile_Menu</members>
         <members>test</members>
         <name>NavigationMenu</name>
     </types>
     <types>
+        <members>API53TESTING</members>
+        <members>AR53TEST</members>
         <members>AutoRABITPOCS</members>
         <members>MyCommunity</members>
         <members>Ursa Major Solar</members>
@@ -2730,6 +3321,8 @@
         <name>Network</name>
     </types>
     <types>
+        <members>cbAPI53TESTING</members>
+        <members>cbAR53TEST</members>
         <members>cbAutoRABITPOCS</members>
         <members>cbMyCommunity</members>
         <members>cbUrsa_Major_Solar</members>
@@ -2744,7 +3337,10 @@
     </types>
     <types>
         <members>Live_Agent_Setup_Flow</members>
+        <members>NEWPERMISSIONJULY</members>
         <members>New_permission_set</members>
+        <members>SDOC__SDocs_Administrator</members>
+        <members>SDOC__SDocs_User</members>
         <members>sfdc_chatbot_service_permset</members>
         <members>test_permission</members>
         <name>PermissionSet</name>
@@ -2760,6 +3356,8 @@
         <name>PresenceUserConfig</name>
     </types>
     <types>
+        <members>API53TESTING Profile</members>
+        <members>AR53TEST Profile</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -2880,6 +3478,57 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
+        <members>EinsteinBotReports</members>
+        <members>EinsteinBotReports/All_Bot_Sessions_Last_30_Days</members>
+        <members>EinsteinBotReports/Article_Chosen_Last_30_Days</members>
+        <members>EinsteinBotReports/Article_Positive_Feedback_Last_30_Days</members>
+        <members>EinsteinBotReports/Bot_Session_Today</members>
+        <members>EinsteinBotReports/Confusion_Frequency_Last_30_Days</members>
+        <members>EinsteinBotReports/Confusion_Frequency_Today</members>
+        <members>EinsteinBotReports/Dialog_Frequency_Last_30_Days</members>
+        <members>EinsteinBotReports/Dialog_Frequency_Today</members>
+        <members>EinsteinBotReports/Dialogs_with_Exceptions_Last30Days</members>
+        <members>EinsteinBotReports/Dialogs_with_Exceptions_Today</members>
+        <members>EinsteinBotReports/Escalation_Today</members>
+        <members>EinsteinBotReports/NLP_Intent_Called_Last_30_Days</members>
+        <members>EinsteinBotReports/NLP_Intent_Called_Today</members>
+        <members>EinsteinBotReports/Session_Ended_Last_30_Days</members>
+        <members>EinsteinBotReports/Session_Ended_Today</members>
+        <members>EinsteinBotReports_v2</members>
+        <members>EinsteinBotReports_v2/AllBotSessionsLast30v2</members>
+        <members>EinsteinBotReports_v2/AllEngagedSessions7_v2</members>
+        <members>EinsteinBotReports_v2/ArticleChosen30_v2</members>
+        <members>EinsteinBotReports_v2/ArticlePositiveFeedback30_v2</members>
+        <members>EinsteinBotReports_v2/BooleanExtracted30_v2</members>
+        <members>EinsteinBotReports_v2/BooleanExtractedToday_v2</members>
+        <members>EinsteinBotReports_v2/BotSessionsToday_v2</members>
+        <members>EinsteinBotReports_v2/BotTransferDialog30_v2</members>
+        <members>EinsteinBotReports_v2/BotTransferDialogToday_v2</members>
+        <members>EinsteinBotReports_v2/BotTransferFreq30_v2</members>
+        <members>EinsteinBotReports_v2/BotTransferFrequencyToday_v2</members>
+        <members>EinsteinBotReports_v2/ConfusionFrequency30_v2</members>
+        <members>EinsteinBotReports_v2/ConfusionFrequencyToday_v2</members>
+        <members>EinsteinBotReports_v2/DialogFrequency30_v2</members>
+        <members>EinsteinBotReports_v2/DialogFrequencyToday_v2</members>
+        <members>EinsteinBotReports_v2/DialogUsage7_v2</members>
+        <members>EinsteinBotReports_v2/DialogsWithExceptions30_v2</members>
+        <members>EinsteinBotReports_v2/DialogsWithExceptionsToday_v2</members>
+        <members>EinsteinBotReports_v2/ELUEntityDetected30_v2</members>
+        <members>EinsteinBotReports_v2/ELUEntityDetectedToday_v2</members>
+        <members>EinsteinBotReports_v2/ELUIntentCalled30_v2</members>
+        <members>EinsteinBotReports_v2/ELUIntentCalledToday_v2</members>
+        <members>EinsteinBotReports_v2/ELUIntentDetected30_v2</members>
+        <members>EinsteinBotReports_v2/ELUIntentDetectedToday_v2</members>
+        <members>EinsteinBotReports_v2/ELUIntentLabels30_v2</members>
+        <members>EinsteinBotReports_v2/ELUIntentLabelsToday_v2</members>
+        <members>EinsteinBotReports_v2/Escalation30_v2</members>
+        <members>EinsteinBotReports_v2/EscalationToday_v2</members>
+        <members>EinsteinBotReports_v2/GoalAchieved30_v2</members>
+        <members>EinsteinBotReports_v2/GoalAchievedToday_v2</members>
+        <members>EinsteinBotReports_v2/NLPIntentCalled30_v2</members>
+        <members>EinsteinBotReports_v2/NLPIntentCalledToday_v2</members>
+        <members>EinsteinBotReports_v2/SessionEnded30_v2</members>
+        <members>EinsteinBotReports_v2/SessionEndedToday_v2</members>
         <members>dsgsdh</members>
         <members>new_folder</members>
         <members>test</members>
@@ -2890,6 +3539,11 @@
     </types>
     <types>
         <members>Account_Report</members>
+        <members>Bot_Metrics_Daily</members>
+        <members>Bot_Metrics_Daily_v2</members>
+        <members>Bot_Metrics_Hourly</members>
+        <members>Bot_Metrics_Hourly_v2</members>
+        <members>Bot_Sessions_v2</members>
         <members>screen_flows_prebuilt_crt</members>
         <members>test</members>
         <name>ReportType</name>
@@ -2946,6 +3600,7 @@
         <members>Case</members>
         <members>Chatter</members>
         <members>ChatterEmailsMD</members>
+        <members>Commerce</members>
         <members>Communities</members>
         <members>Company</members>
         <members>ConnectedApp</members>
@@ -2960,9 +3615,11 @@
         <members>Discovery</members>
         <members>DocumentChecklist</members>
         <members>EAC</members>
+        <members>EinsteinDocumentCapture</members>
         <members>EmailAdministration</members>
         <members>EmailIntegration</members>
         <members>EmailTemplate</members>
+        <members>EmployeeFieldAccess</members>
         <members>EmployeeUser</members>
         <members>EncryptionKey</members>
         <members>EnhancedNotes</members>
@@ -2989,6 +3646,7 @@
         <members>LiveAgent</members>
         <members>LiveMessage</members>
         <members>Macro</members>
+        <members>MailMerge</members>
         <members>Meetings</members>
         <members>Mobile</members>
         <members>MyDomain</members>
@@ -3039,17 +3697,17 @@
         <name>Settings</name>
     </types>
     <types>
+        <members>Opportunity.TEST_ROLE</members>
+        <members>Opportunity.new_solrole</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
         <members>AutoRABIT_POC__c.POC</members>
         <members>Campaign.TestCampaign</members>
         <members>Customer_POC_Request__c.POC</members>
         <members>ServiceResource.TestGuestRule</members>
         <members>ServiceResource.my_guest_rule</members>
         <name>SharingGuestRule</name>
-    </types>
-    <types>
-        <members>Account.TestGuestRuleAccount</members>
-        <members>Opportunity.oppty_Sharing_rule</members>
-        <name>SharingOwnerRule</name>
     </types>
     <types>
         <members>Account</members>
@@ -3059,6 +3717,7 @@
         <members>ActivityRecurrence2Exception</members>
         <members>AgentWork</members>
         <members>AlternativePaymentMethod</members>
+        <members>AppointmentInvitation</members>
         <members>Asset</members>
         <members>AssistantInteraction</members>
         <members>AssistantProgress</members>
@@ -3067,6 +3726,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AutoRABIT_POC__c</members>
+        <members>BusinessBrand</members>
         <members>CalendarModel</members>
         <members>CalendarView</members>
         <members>Campaign</members>
@@ -3082,11 +3742,14 @@
         <members>ContactPointConsent</members>
         <members>ContactPointTypeConsent</members>
         <members>ContactRequest</members>
+        <members>ConvCoachingRecommendation</members>
         <members>CreditMemo</members>
+        <members>Customer</members>
         <members>Customer_POC_Request__c</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DelegatedAccount</members>
+        <members>DemoObject__c</members>
         <members>EngagementChannelType</members>
         <members>ExchangeUserMapping</members>
         <members>ExternalEventMapping</members>
@@ -3095,16 +3758,21 @@
         <members>FinanceTransaction</members>
         <members>FlowInterview</members>
         <members>FlowInterviewLog</members>
+        <members>FlowTestResult</members>
         <members>IU_Health__c</members>
         <members>Image</members>
         <members>Individual</members>
         <members>Invoice</members>
         <members>Lead</members>
+        <members>LearningItem</members>
+        <members>LearningItemAssignment</members>
+        <members>LearningItemProgress</members>
         <members>LegalEntity</members>
         <members>ListEmail</members>
         <members>LiveAgentSession</members>
         <members>LiveChatTranscript</members>
         <members>Location</members>
+        <members>LocationGroup</members>
         <members>Macro</members>
         <members>MacroUsage</members>
         <members>MessagingEndUser</members>
@@ -3130,11 +3798,16 @@
         <members>RecordMergeHistory</members>
         <members>ReportResultBlob</members>
         <members>ReturnOrder</members>
+        <members>SDOC__SDJob__c</members>
+        <members>SDOC__SDTemplate__c</members>
+        <members>SDOC__SDoc__c</members>
         <members>Scorecard</members>
         <members>ScratchOrgInfo</members>
+        <members>Seller</members>
         <members>ServiceAppointment</members>
         <members>ServiceResource</members>
         <members>ServiceTerritory</members>
+        <members>Shift</members>
         <members>SiqUserBlacklist</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
@@ -3145,12 +3818,14 @@
         <members>UserEmailPreferredPerson</members>
         <members>UserProvisioningRequest</members>
         <members>UserServicePresence</members>
+        <members>WebStore</members>
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>vehicle__c</members>
         <name>SharingRules</name>
     </types>
     <types>
+        <members>API53TESTING1</members>
         <members>AutoRABITPOCS1</members>
         <members>MyCommunity1</members>
         <members>Ursa_Major_Solar1</members>
@@ -3198,21 +3873,44 @@
         <members>OrderStatus</members>
         <members>OrderType</members>
         <members>PartnerRole</members>
+        <members>ProcessExceptionCategory</members>
+        <members>ProcessExceptionPriority</members>
+        <members>ProcessExceptionSeverity</members>
+        <members>ProcessExceptionStatus</members>
         <members>Product2Family</members>
         <members>QuickTextCategory</members>
         <members>QuickTextChannel</members>
+        <members>ResourceAbsenceType</members>
+        <members>ReturnOrderLineItemProcessPlan</members>
+        <members>ReturnOrderLineItemReasonForRejection</members>
+        <members>ReturnOrderLineItemReasonForReturn</members>
+        <members>ReturnOrderLineItemRepaymentMethod</members>
+        <members>ReturnOrderShipmentType</members>
+        <members>ReturnOrderStatus</members>
+        <members>RoleInTerritory2</members>
         <members>Salutation</members>
+        <members>ServTerrMemRoleType</members>
         <members>ServiceAppointmentStatus</members>
         <members>SolutionStatus</members>
         <members>TaskPriority</members>
         <members>TaskStatus</members>
         <members>TaskSubject</members>
         <members>TaskType</members>
+        <members>WorkTypeDefApptType</members>
+        <members>WorkTypeGroupAddInfo</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Industry-de</members>
+        <name>StandardValueSetTranslation</name>
     </types>
     <types>
         <members>AutoRABITPOC</members>
         <members>AutoRABITPOC123</members>
+        <members>CSSFILE</members>
+        <members>SDOC__SDoc</members>
+        <members>SDOC__ckEditor</members>
+        <members>SDOC__jQueryUI</members>
         <members>SiteSamples</members>
         <name>StaticResource</name>
     </types>
@@ -3228,6 +3926,7 @@
         <members>ContentDocument</members>
         <members>Contract</members>
         <members>Customer_POC_Request__c</members>
+        <members>DemoObject__c</members>
         <members>Event</members>
         <members>FCSA__c</members>
         <members>IU_Health__c</members>
@@ -3244,11 +3943,17 @@
         <members>ResourcePreference</members>
         <members>ReturnOrder</members>
         <members>ReturnOrderLineItem</members>
+        <members>SDOC__SDField__c</members>
+        <members>SDOC__SDJob__c</members>
+        <members>SDOC__SDRelationship__c</members>
+        <members>SDOC__SDTemplate__c</members>
+        <members>SDOC__SDoc__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceResource</members>
         <members>ServiceResourceSkill</members>
         <members>ServiceTerritory</members>
         <members>ServiceTerritoryMember</members>
+        <members>Shift</members>
         <members>Solution</members>
         <members>Task</members>
         <members>Test_Object__c</members>
@@ -3282,12 +3987,36 @@
         <name>UserCriteria</name>
     </types>
     <types>
+        <members>SDOC__SDRelationship__c.SDOC__GD_Link</members>
+        <members>SDOC__SDoc__c.TESTVALIDATION_SDOC</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
+        <members>Account.NEWWEBLINK</members>
+        <members>Account.SDOC__Email_Docs</members>
+        <members>Account.SDOC__S_Docs</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Contact.SDOC__Add_to_Mass_Merge_List</members>
+        <members>Contact.SDOC__Email_Docs</members>
+        <members>Contact.SDOC__S_Docs</members>
+        <members>Contact.SDOC__View_Mass_Merge_List</members>
+        <members>Contract.SDOC__S_Docs</members>
+        <members>Event.SDOC__S_Docs</members>
+        <members>Lead.SDOC__Email_Docs</members>
+        <members>Lead.SDOC__S_Docs</members>
         <members>LiveAgentSession.chatbutton</members>
         <members>LiveChatTranscript.testbutton</members>
         <members>Opportunity.DeliveryStatus</members>
+        <members>Opportunity.SDOC__Email_Docs</members>
+        <members>Opportunity.SDOC__S_Docs</members>
+        <members>SDOC__SDJob__c.SDOC__Delete_Logs</members>
+        <members>SDOC__SDRelationship__c.SDOC__Upload_to_Google_Docs</members>
+        <members>SDOC__SDRelationship__c.SDOC__Upload_to_S3</members>
+        <members>SDOC__SDTemplate__c.SDOC__Edit_TemplateXML</members>
+        <members>SDOC__SDTemplate__c.SDOC__SDClone</members>
+        <members>Task.SDOC__S_Docs</members>
         <name>WebLink</name>
     </types>
     <types>
