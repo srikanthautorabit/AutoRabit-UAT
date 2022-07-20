@@ -1,5 +1,5 @@
 trigger UpdateEmailDetails on Case (after insert, after update) {
-    
+    //test trigger
     if(!checkRecursive.firstcall) {
        checkRecursive.firstcall = true;
        Id CaseID;
